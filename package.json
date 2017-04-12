@@ -1,0 +1,30 @@
+{
+  "name": "prkms",
+  "version": "1.0.0",
+  "description": "爬政府電子採購網決標的項目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fetch": "babel-node ./fetch.js",
+    "parse": "babel-node ./parse.js"
+  },
+  "keywords": [
+    "crawler",
+    "政府電子採購網"
+  ],
+  "author": "nickhsine",
+  "license": "MIT",
+  "dependencies": {
+    "htmlparser2": "^3.9.2",
+    "qs": "^6.4.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
+    "sleep": "^5.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-plugin-transform-class-properties": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.3.13"
+  }
+}
