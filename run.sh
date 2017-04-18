@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /home/nickhsine97753017/prkms-crawler;
+cd ~/prkms-crawler;
 npm run fetch;
