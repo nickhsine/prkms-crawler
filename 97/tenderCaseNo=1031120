@@ -6,11 +6,11 @@
 
 <script language="JavaScript" src="/tps/scripts/atm/atm_check_info.js"></script>
 <script type="text/javascript" language="javascript">
-var printTitle = "定期彙送";
+var printTitle = "決標公告";
 var pView = "true";
 var test01 = "";
 function print_text_new(){
-	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51436234&print_type=printText&tenderCaseNo=1031120&pkAtmMain4Success=51436234','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51464684&print_type=printText&tenderCaseNo=1031120&pkAtmMain4Success=51464684','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 }
 
 
@@ -602,14 +602,13 @@ jQuery(document).ready(function(){
 			<tr>
 			  <td valign="top" align="right">
 			  	
+						<input type="text" name="contentMode" value="0" style="display:none">
+						
+						<input type="button" value="顯示完整資料" class="T11c" onclick="document.getElementsByName('contentMode')[0].value='1';document.forms.mainForm.submit();"/>
+						
+						
+					&nbsp; &nbsp; 
 				
-					<input type="text" name="contentMode" value="0" style="display:none">
-
-					
-						<input type="button" value="顯示簡要資料" class="T11c" onclick="document.getElementsByName('contentMode')[0].value='1';document.forms.mainForm.submit();"/>
-					
-										
-				&nbsp; &nbsp; 
 					
 					<img src="/tps/images/print.jpg" alt="友善列印" width="16"	height="16">
 					<input name='printer_friendly' type='button' onclick='printWin(printTitle);' value='友善列印' id='atm_printer_friendly' class='T11c'><br/>
@@ -697,7 +696,7 @@ function popWatermark2(){
 function printBidder(pkItem){
 		//alert(pkItem);
 		
-		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51436234&pkAtmAwardItem='+pkItem+'&tenderCaseNo=1031120','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51464684&pkAtmAwardItem='+pkItem+'&tenderCaseNo=1031120','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 		
 }
 </script>
@@ -706,14 +705,14 @@ function printBidder(pkItem){
 <table border="1" cellpadding="0" cellspacing="0" width="100%" class="table_block tender_table">
 	
 	<caption style="display:none">
-		<center><FONT SIZE="5">定期彙送</FONT></center>		
-		<div id="printAwardDate" align="center" style="display:block">公告日:103/12/15</div>			
+		<center><FONT SIZE="5">決標公告</FONT></center>		
+		<div id="printAwardDate" align="center" style="display:block">公告日:104/01/08</div>			
 	</caption>
 	<tbody>
 	<tr>
 		<td align="center" colspan="4" style="border:1px solid #FFFFFF;">
-			<center><h1>定期彙送</h1></center>
-			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:103/12/15</h3></div>	
+			<center><h1>決標公告</h1></center>
+			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:104/01/08</h3></div>	
 			<div class="remind_msg"></div>			
 		</td>
 	</tr>	
@@ -730,7 +729,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關代碼</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			3.76.49.57
+			3.32.36
 		</td>
 		
 	</tr>
@@ -739,7 +738,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			雲林縣古坑鄉公所
+			國軍退除役官兵輔導委員會臺北榮譽國民之家
 		</td>
 		
 	</tr>
@@ -747,7 +746,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">單位名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-            雲林縣古坑鄉公所
+            臺北榮譽國民之家
         </td>
 		
 	</tr>
@@ -765,7 +764,7 @@ function printBidder(pkItem){
 			                                     	
 	                         
 	                         
-	                         646雲林縣古坑鄉中山路40號
+	                         237新北市三峽區三峽白雞127號
 		</td>
 		
 	</tr>							
@@ -775,7 +774,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
 			
 			
-			黃珮如
+			黃嘉男
 	</td>
 		
 	</tr>
@@ -785,7 +784,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
             
             
-            (05)5826320&nbsp;分機&nbsp;213
+            (02)26731201&nbsp;分機&nbsp;512
         </td>
 		
 	</tr>
@@ -795,7 +794,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
                               
                               
-                              (05)5825255
+                              (02)26732164
                           </td>
 		
 	</tr>
@@ -856,6 +855,8 @@ function printBidder(pkItem){
 		
 		
 		
+		
+			
 				
 				
 		
@@ -891,13 +892,6 @@ function printBidder(pkItem){
 		
 				
 			
-			
-		
-		
-			
-		
-		
-		
 		
 		
 		
@@ -924,7 +918,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">招標方式</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			公開取得報價單或企劃書
+			公開招標
 			<div class="remind_msg">
 				
 			</div>
@@ -984,14 +978,14 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			103年度古坑鄉建置路燈編號牌採購案
+			104-105年單身亡故榮民殯葬事務
 		</td>		
 	</tr>							
 	<tr class="award_table_tr_2">
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">決標資料類別</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			定期彙送
+			決標公告
 		</td>
 		
 	</tr>								
@@ -1000,11 +994,11 @@ function printBidder(pkItem){
 			class="T11b">是否屬共同供應契約採購</th>
 		<td bgcolor="#EFF1F1" class="newstop">
 			
+				
 			
-							
 			
 			
-			否
+			是
 				
 		</td>
 	</tr>
@@ -1105,7 +1099,7 @@ function printBidder(pkItem){
         <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
             width="200">開標時間</th>
         <td bgcolor="#EFF1F1" class="newstop">
-        	103/12/02 09:30
+        	103/12/12 09:30
         </td>
 
     </tr>
@@ -1114,7 +1108,7 @@ function printBidder(pkItem){
         <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
             width="200">原公告日期</th>
         <td bgcolor="#EFF1F1" class="newstop">
-        	103/11/21
+        	103/11/24
         	
         	<span>　　<span class="remind_msg">原公告日期係指最近1次招標公告或更正日期</span></span>
         </td>
@@ -1127,13 +1121,13 @@ function printBidder(pkItem){
             class="T11b">採購金額級距</th>
         <td bgcolor="#EFF1F1" class="newstop">
         	
+        	
+        	
         		
         	
         	
         	
-        	
-        	
-        	未達公告金額
+        	查核金額以上未達巨額
 			<div class="remind_msg">
 				
 			</div>
@@ -1161,6 +1155,80 @@ function printBidder(pkItem){
 		
     
     
+	
+	<tr class="award_table_tr_2">
+		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
+			class="T11b">是否適用條約或<br>協定之採購</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+			
+			
+						
+			
+			
+				
+
+
+<style type="text/css">
+	.gpa_shift {
+		margin-left: 30px;
+	}
+	.gpa_shift2 {
+		margin-left: 60px;
+	}
+	.gpa_error_msg {
+		color:#FF0000;
+		font-size:10pt;
+	}
+</style>
+
+
+	
+	<strong>是否適用WTO政府採購協定(GPA)：</strong>
+	
+	
+		否
+		
+			<div class="gpa_shift">
+				WTO政府採購協定排除理由：38.我國GPA開放清單未開放之服務項目。
+			</div>
+		
+	
+
+
+	<hr>
+	
+	<strong>是否適用臺紐經濟合作協定(ANZTEC)：</strong>
+	
+	
+		否
+		
+			<div class="gpa_shift">
+				臺紐經濟合作協定排除理由：38.我國ANZTEC開放清單未開放之服務項目。
+			</div>
+		
+	
+
+
+	<hr>
+	
+	<strong>是否適用臺星經濟夥伴協定(ASTEP)：</strong>
+	
+	
+		否
+		
+			<div class="gpa_shift">
+				臺星經濟夥伴協定排除理由：38.我國ASTEP開放清單未開放之服務項目。
+			</div>
+		
+	
+
+			
+						
+						
+			
+			
+		</td>		
+	</tr>
 		        
 		
 		     
@@ -1183,7 +1251,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">預算金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			600,000元
+			18,789,504元
                         
 	                        
 	                        
@@ -1215,35 +1283,16 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">履約地點</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			 雲林縣(非原住民地區)
+			 新北市(非原住民地區)
 		</td>		
 	</tr>
 	<tr class="award_table_tr_2">
 	    <th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 	        class="T11b">履約地點（含地區）</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	    	雲林縣－古坑
+	    	新北市－全區
 		</td>	    
 	</tr>
-		
-	
-	
-		<tr class="award_table_tr_2">
-			<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
-				class="T11b">是否屬優先採購身心障礙福利機構產品或勞務</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-			
-			
-				
-			
-			
-			否
-			</td>		
-		</tr>
-	
-	
-	
-		
 				
 	
 		
@@ -1293,282 +1342,31 @@ function printBidder(pkItem){
 <!-- delimiter 資訊服務價格 End -->	
 <!-- delimiter 投標廠商 Start -->			
 
-
-
-
+	
 	<tr class="award_table_tr_3">
-		<td align="center" valign="middle" width="38" rowspan="2" bgcolor="#F5BF65">
+		<td align="center" valign="middle" bgcolor="#F5BF65" width="38" rowspan="3">
 			<span class="newstop">投<br/>標<br/>廠<br/>商</span>		
 		</td>
 	</tr>
-	<tr class="award_table_tr_3"><td colspan="3" style="padding-top:0px; padding-bottom:0px; padding-right:0px; padding-left:0px;">
-	
-	
-	<table border="1" bgcolor="#F5BF65" BORDERCOLOR="#F5BF65" cellpadding="1" cellspacing="1" width="100%" height="100%" class="table_block tender_table" style="border-collapse:collapse;" summary="*" >
-	<tr>
-	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+	<tr class="award_table_tr_3">
+	    <th width="200" align="left" valign="middle" bgcolor="#FFDD83"
 			class="T11b">投標廠商家數</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			2
+			8
+		</td>
+
+	</tr>
+	<tr class="award_table_tr_3">
+		<th width="200" align="left" valign="top" bgcolor="#FFDD83"
+			class="T11b">投標廠商</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+		請使用"顯示完整資料"察看詳細資料。
 		</td>
 
 	</tr>
 	
 	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">
-			
-			
-				
-				
-				
-					投標廠商1
-					
-				
-									
-		</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop"></td>
-		
-	</tr>
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　廠商代碼</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			
-				
-					
-					
-					
-						54751979
-					
-					 
-				
-				
-			
-		</td>
-		
-	</tr>
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　廠商名稱</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-			
-			
-			勤學科技股份有限公司
-		</td>
-		
-	</tr>
-	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　是否得標</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-          	
-          		                                	
-          	
-          	
-          	
-            是
-		</td>										
-	</tr>
-	
-	<tr>
-	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-	        class="T11b">　組織型態</th>
-	    <td height="7" bgcolor="#EFF1F1" class="newstop">
-	    	 公司登記
-	    	 
-	    </td>
-	    
-	</tr>
-	
-	<tr>
-	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-	        class="T11b">　廠商業別</th>
-	    <td height="7" bgcolor="#EFF1F1" class="newstop">
-	    	其他
-	    	
-	    </td>
-	    
-	</tr>
-	<tr>
-		<th width="200" align="left" valign="middle"
-			bgcolor="#ffdd83" class="T11b">　廠商地址</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-			
-			
-						
-			
-			
-				
-				
-									
-				
-			
-											
-			
-			403臺中市西區土庫里忠明南路497號9樓
-		</td>
-	
-	</tr>
-		                     
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　廠商電話</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop">
-		
-		
-		
-		(04)
-			
-			
-				23731628
-		</td>
-		
-	</tr>
-	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　決標金額</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop">
-		568,500元
-		</td>
-		
-	</tr>
-	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　得標廠商國別</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			中華民國(Republic of China (Taiwan))
-		</td>
-		
-	</tr>
-	
-	
-	
-	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　是否為中小企業</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			
-	                         		                                	
-	                         	
-	                         	
-	                         	
-	                             是
-		</td>								
-		
-	</tr>
-	
-	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　履約起迄日期</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			
-			
-			103/12/11－104/02/18
-		</td>
-		
-	</tr>
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　雇用員工總人數是否<br>　超過100人</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			
-	                         	
-	                         		                                	
-	                         	
-	                         	
-	                         否
-		</td>
-		
-	</tr>
-	<!-- isEmployeeOver100 -->							
-	<!-- isObtain -->
-	
-	<!-- isNotObtain end -->		
-	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">
-			
-			
-				
-				
-				
-					投標廠商2
-					
-				
-									
-		</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop"></td>
-		
-	</tr>
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　廠商代碼</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			
-				
-				
-					
-					
-					
-						53989383
-					
-					 											
-				
-			
-		</td>
-		
-	</tr>
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　廠商名稱</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-			
-			
-			恆誠資訊有限公司
-		</td>
-		
-	</tr>
-	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　是否得標</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-          	
-          	
-          		                                	
-          	
-          	
-            否
-		</td>										
-	</tr>
-	
-	<tr>
-	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-	        class="T11b">　組織型態</th>
-	    <td height="7" bgcolor="#EFF1F1" class="newstop">
-	    	 公司登記
-	    	 
-	    </td>
-	    
-	</tr>
-	<!-- isObtain -->
-	
-	<!-- isNotObtain start -->
-		 
-		
-	<!-- isNotObtain end -->		
-	
-	</table>
-	</td></tr>
-	
+
 
 			
 <!-- delimiter 投標廠商 End -->
@@ -1580,242 +1378,30 @@ function printBidder(pkItem){
 
 			
 
-
 	
-	
-	<tr class="award_table_tr_4">
-		<td align="center" valign="middle" width="38" bgcolor="#FF9999" rowspan="2">
-			<span class="newstop">決<br/>標<br/>品<br/>項</span>
-		</td>
-	</tr>
-	<tr class="award_table_tr_4"><td colspan="3" style="padding-top:0px; padding-bottom:0px; padding-right:0px; padding-left:0px;">
-		
-		
-		<table border="1" bgcolor="#FF9999" BORDERCOLOR="#FF9999" cellpadding="1" cellspacing="1" width="100%" height="100%" class="table_block tender_table" style="border-collapse:collapse;" summary="*" >
-		<tr>
-	       	<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+		<tr class="award_table_tr_4">
+			<td align="center" valign="middle" bgcolor="#FF9999" width="38" rowspan="3">
+				<span class="newstop">決<br/>標<br/>品<br/>項</span>
+			</td>
+		</tr>
+		<tr class="award_table_tr_4">
+        	<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
 				class="T11b">決標品項數</th>
 			<td bgcolor="#EFF1F1" class="newstop">
 				1
 			</td>
-			
-		</tr>
-		
-		
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">第1品項</th>
-			<td bgcolor="#EFF1F1" class="newstop"></td>
-			
-		</tr>
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　品項名稱</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-				103年度古坑鄉建置路燈編號牌採購案
-			</td>
-			
-		</tr>
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　是否以單價及預估需<br>　求數量之乘積決定最<br>　低標</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-								
-	                         	
-	                         		                                	
-	                         	
-	                         	
-	                             否
-			</td>
-			
-		</tr>
-		
-		
-					
-		
- 		
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　得標廠商1</th>
-			<td bgcolor="#EFF1F1" class="newstop"></td>
 
 		</tr>
-		<tr>
+		<tr class="award_table_tr_4">
 			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　得標廠商</th>
+				class="T11b">決標品項</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				
-				
-				勤學科技股份有限公司
-			</td>
-			
-		</tr>
-		
-		
-		
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　預估需求數量</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-				1
-			</td>
-			
-		</tr>
-		
-		
-				
-		
-				
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　決標金額
-				
-			</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-				568,500
-			元</td>			
-		</tr>	
-		
-		
-		
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　底價金額
-				
-			</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-			588,000
-			元</td>
-			
-		</tr>
-		
-									
-		
-		
-		
-				
-				
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　原產地國別</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-				<table id="table_ob_nation" border="0" cellpadding="0" cellspacing="1" class="shift">
-					
-						
-							<tr>
-								<td class="newstop" width="100px">原產地國別</td>
-								<td class="newstop">
-								
-								    
-								    	
-								    
-								    
-								
-								中華民國(Republic of China (Taiwan))
-								</td>
-							</tr>
-							
-							<tr>
-								<td class="newstop" valign="top">原產地國別<br/>得標金額</td>
-								<td class="newstop">
-								
-								    
-								    	
-								    
-								    
-								
-									568,500元<br/>
-									伍<span style='color:red'>拾</span>陸萬捌仟伍佰元
-								</td>
-							</tr>
-							
-							<tr>
-								<td class='newstop' colspan='2'><hr></td>
-							</tr>
-						
-					
-				</table>
-			</td>
-			
-		</tr>
-		
-		
-				
-		
- 			
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　未得標廠商1</th>
-			<td bgcolor="#EFF1F1" class="newstop"></td>
+				請使用"顯示完整資料"察看詳細資料。</td>
 
 		</tr>
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　未得標廠商</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-				
-				
-				恆誠資訊有限公司
-			</td>
-			
-		</tr>
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　是否合格</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-			
-				
-			
-			
-			
-			是
-			</td>
-			
-		</tr>
-		
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　標價金額</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-			592,800
-			元</td>
-			
-		</tr>
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-	                        資格、規格合於招標文件但非最低(高)標
-	                        
-	                        
-			</td>			
-		</tr>
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　標價偏低理由</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-				
-				
-			</td>			
-		</tr>
-		
-		
-		
-		
-		
-		
-		
-		
-		</table>
-	</td></tr>
-		
+	
+	
+
 
 <!-- delimiter 決標品項 End -->
 <!-- delimiter 最有利標 Start -->
@@ -1880,7 +1466,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">決標日期</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			103/12/02
+			103/12/25
 			
 		</td>
 		
@@ -1889,7 +1475,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 	    <th bgcolor="#ddc09e" class="T11b" width="200">決標公告日期</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	        103/12/15
+	        104/01/08
 	    </td>
 	    
 	</tr>
@@ -1912,7 +1498,7 @@ function printBidder(pkItem){
 		<tr class="award_table_tr_6">
 			<th bgcolor="#ddc09e" class="T11b" width="200">底價金額</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				588,000元
+				5,526,600元
 			</td>			
 		</tr>		
 		
@@ -1931,7 +1517,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">總決標金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-		    568,500元
+		    2,990,000元
 		    
 				
 		</td>
@@ -1985,7 +1571,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			機關代碼：3.76.49.57<BR>機關名稱：雲林縣古坑鄉公所			
+			機關代碼：3.32.36<BR>機關名稱：國軍退除役官兵輔導委員會臺北榮譽國民之家			
 		</td>
 		
 	</tr>
@@ -2129,7 +1715,7 @@ function printBidder(pkItem){
       <span class="cbottom">歡迎本區第 </span>
       <span class="cright02"><strong class="counterValue"></strong></span>
       <span class="cbottom"> 位訪客(至098/12/31累計76003935人次)　台灣時間為 </span>
-      <noscript><strong class="cright02"> 20點46分</strong></noscript>
+      <noscript><strong class="cright02"> 14點36分</strong></noscript>
       <span class="cright02"><strong class="now_time"></strong></span>
 	  	<span class="cbottom">
 	  		<br>

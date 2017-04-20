@@ -10,7 +10,7 @@ var printTitle = "定期彙送";
 var pView = "true";
 var test01 = "";
 function print_text_new(){
-	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51407490&print_type=printText&tenderCaseNo=H14004&pkAtmMain4Success=51407490','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51491868&print_type=printText&tenderCaseNo=H14004&pkAtmMain4Success=51491868','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 }
 
 
@@ -697,7 +697,7 @@ function popWatermark2(){
 function printBidder(pkItem){
 		//alert(pkItem);
 		
-		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51407490&pkAtmAwardItem='+pkItem+'&tenderCaseNo=H14004','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51491868&pkAtmAwardItem='+pkItem+'&tenderCaseNo=H14004','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 		
 }
 </script>
@@ -707,13 +707,13 @@ function printBidder(pkItem){
 	
 	<caption style="display:none">
 		<center><FONT SIZE="5">定期彙送</FONT></center>		
-		<div id="printAwardDate" align="center" style="display:block">公告日:103/11/18</div>			
+		<div id="printAwardDate" align="center" style="display:block">公告日:104/02/13</div>			
 	</caption>
 	<tbody>
 	<tr>
 		<td align="center" colspan="4" style="border:1px solid #FFFFFF;">
 			<center><h1>定期彙送</h1></center>
-			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:103/11/18</h3></div>	
+			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:104/02/13</h3></div>	
 			<div class="remind_msg"></div>			
 		</td>
 	</tr>	
@@ -730,7 +730,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關代碼</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			3.9.23
+			3.9.20.1
 		</td>
 		
 	</tr>
@@ -739,7 +739,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			國立交通大學
+			國立臺灣大學醫學院附設醫院
 		</td>
 		
 	</tr>
@@ -747,7 +747,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">單位名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-            總務處
+            總務室
         </td>
 		
 	</tr>
@@ -765,7 +765,7 @@ function printBidder(pkItem){
 			                                     	
 	                         
 	                         
-	                         30001新竹市東區大學路1001號環安中心
+	                         100臺北市中正區中山南路7號
 		</td>
 		
 	</tr>							
@@ -775,7 +775,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
 			
 			
-			陳鎧湧
+			胡瑞芳
 	</td>
 		
 	</tr>
@@ -785,7 +785,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
             
             
-            (03)5714627
+            (02)23562052
         </td>
 		
 	</tr>
@@ -795,7 +795,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
                               
                               
-                              (03)5731618
+                              (02)23412639
                           </td>
 		
 	</tr>
@@ -803,9 +803,25 @@ function printBidder(pkItem){
 <!-- delimiter 機關資料 End -->
 <!-- delimiter 已公告/採購資料 Start -->
 	
+	
+		
+		
+			
+			
+			
+				
+			
+			
+			
+				
+			
+			
+		
 	 		
 	<tr class="award_table_tr_2">
 		
+		
+			
 		
 		
 			
@@ -878,8 +894,9 @@ function printBidder(pkItem){
 			
 		
 		
-			
 		
+			
+						
 		
 		
 		
@@ -889,7 +906,7 @@ function printBidder(pkItem){
 		
 		
 		<td align="center" valign="middle" bgcolor="#FCD847"
-			class="form_head" width="38" rowspan="28 ">
+			class="form_head" width="38" rowspan="29 ">
 			
 			<span class="newstop">已<br/>公<br/>告<br/>資<br/>料</span>
 			
@@ -919,7 +936,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">決標方式</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			參考最有利標精神
+			最低標
 			<div class="remind_msg">
 				
 			</div>
@@ -928,6 +945,18 @@ function printBidder(pkItem){
 		
 	</tr>
 	
+	                           
+	<tr class="award_table_tr_2">
+		<th width="200" align="left" valign="middle" bgcolor="#FFFF99" class="T11b">
+	    	是否依政府採購法施行<br>細則第64條之2辦理
+		</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+			否
+			<div class="remind_msg">
+				
+			</div>			
+		</td>	    
+	</tr>
 	
 	
 	  
@@ -956,7 +985,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			本校光復校區污水處理廠圖控軟體升級與系統整合案
+			夜間委外血品運送366次
 		</td>		
 	</tr>							
 	<tr class="award_table_tr_2">
@@ -1077,7 +1106,7 @@ function printBidder(pkItem){
         <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
             width="200">開標時間</th>
         <td bgcolor="#EFF1F1" class="newstop">
-        	
+        	104/02/11 10:00
         </td>
 
     </tr>
@@ -1086,7 +1115,7 @@ function printBidder(pkItem){
         <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
             width="200">原公告日期</th>
         <td bgcolor="#EFF1F1" class="newstop">
-        	103/10/14
+        	104/02/05
         	
         	<span>　　<span class="remind_msg">原公告日期係指最近1次招標公告或更正日期</span></span>
         </td>
@@ -1155,7 +1184,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">預算金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			777,000元
+			164,700元
                         
 	                        
 	                        
@@ -1187,32 +1216,28 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">履約地點</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			 新竹市(非原住民地區)
+			 臺北市(非原住民地區)
 		</td>		
 	</tr>
 	<tr class="award_table_tr_2">
 	    <th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 	        class="T11b">履約地點（含地區）</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	    	新竹市
+	    	臺北市－中正區
 		</td>	    
 	</tr>
 		
 	
 	
+	
 		<tr class="award_table_tr_2">
 			<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
-				class="T11b">是否屬優先採購身心障礙福利機構產品或勞務</th>
+				class="T11b">是否於招標文件載明優先決標予身心障礙福利機構團體或庇護工場</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-			
-				
-			
-			
-			
-			是<br/>大項分類：代工服務　次項分類：資訊服務
+				否
 			</td>		
 		</tr>
-	
+					
 	
 	
 		
@@ -1308,16 +1333,6 @@ function printBidder(pkItem){
 			class="T11b">　廠商代碼</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
 			
-				
-					
-					
-					
-						70360338
-					
-					 
-				
-				
-			
 		</td>
 		
 	</tr>
@@ -1327,7 +1342,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			吉昱科技股份有限公司
+			葉家綸
 		</td>
 		
 	</tr>
@@ -1349,7 +1364,7 @@ function printBidder(pkItem){
 	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 	        class="T11b">　組織型態</th>
 	    <td height="7" bgcolor="#EFF1F1" class="newstop">
-	    	 公司登記
+	    	 自然人
 	    	 
 	    </td>
 	    
@@ -1375,12 +1390,10 @@ function printBidder(pkItem){
 			
 				
 				
-									
-				
 			
 											
 			
-			106臺北市大安區臥龍街283-1號1樓
+			234新北市永和區
 		</td>
 	
 	</tr>
@@ -1395,7 +1408,8 @@ function printBidder(pkItem){
 		(02)
 			
 			
-				27339033
+			
+				095859****
 		</td>
 		
 	</tr>
@@ -1404,7 +1418,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 			class="T11b">　決標金額</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
-		725,000元
+		161,040元
 		</td>
 		
 	</tr>
@@ -1426,11 +1440,11 @@ function printBidder(pkItem){
 			class="T11b">　是否為中小企業</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
 			
+	                         	
 	                         		                                	
 	                         	
 	                         	
-	                         	
-	                             是
+	                             否，預估分包予中小企業之金額 0 元
 		</td>								
 		
 	</tr>
@@ -1442,7 +1456,7 @@ function printBidder(pkItem){
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
 			
 			
-			103/11/19－104/01/27
+			104/04/01－105/03/31
 		</td>
 		
 	</tr>
@@ -1511,7 +1525,7 @@ function printBidder(pkItem){
 			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
 				class="T11b">　品項名稱</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				本校光復校區污水處理廠圖控軟體升級與系統整合案
+				夜間委外血品運送366次
 			</td>
 			
 		</tr>
@@ -1547,7 +1561,7 @@ function printBidder(pkItem){
 			<td bgcolor="#EFF1F1" class="newstop">
 				
 				
-				吉昱科技股份有限公司
+				葉家綸
 			</td>
 			
 		</tr>
@@ -1574,7 +1588,7 @@ function printBidder(pkItem){
 				
 			</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				725,000
+				161,040
 			元</td>			
 		</tr>	
 		
@@ -1587,7 +1601,7 @@ function printBidder(pkItem){
 				
 			</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-			740,000
+			164,700
 			元</td>
 			
 		</tr>
@@ -1628,8 +1642,8 @@ function printBidder(pkItem){
 								    
 								    
 								
-									725,000元<br/>
-									柒<span style='color:red'>拾</span>貳萬伍仟元
+									161,040元<br/>
+									壹<span style='color:red'>拾</span>陸萬壹仟零肆拾元
 								</td>
 							</tr>
 							
@@ -1715,7 +1729,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">決標日期</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			103/11/18
+			104/02/11
 			
 		</td>
 		
@@ -1724,7 +1738,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 	    <th bgcolor="#ddc09e" class="T11b" width="200">決標公告日期</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	        103/11/18
+	        104/02/13
 	    </td>
 	    
 	</tr>
@@ -1734,11 +1748,11 @@ function printBidder(pkItem){
 	    <th bgcolor="#ddc09e" class="T11b" width="200">是否刊登公報</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
 		
-		
 			
 		
 		
-			否
+		
+			是
 		</td>		
 	</tr>
 	
@@ -1747,7 +1761,7 @@ function printBidder(pkItem){
 		<tr class="award_table_tr_6">
 			<th bgcolor="#ddc09e" class="T11b" width="200">底價金額</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				740,000元
+				164,700元
 			</td>			
 		</tr>		
 		
@@ -1766,7 +1780,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">總決標金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-		    725,000元
+		    161,040元
 		    
 				
 		</td>
@@ -1820,7 +1834,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			機關代碼：3.9.23<BR>機關名稱：國立交通大學			
+			機關代碼：3.9.20.1<BR>機關名稱：國立臺灣大學醫學院附設醫院			
 		</td>
 		
 	</tr>
@@ -1859,32 +1873,32 @@ function printBidder(pkItem){
     </tr>
     
     <tr>
-        <td class="T12">本校光復校區污水處理廠圖控軟體升級與系統整合案</td>
+        <td class="T12">夜間委外血品運送366次</td>
         <td class="T12" align="center">01</td>
         <td class="T12" align="center">001</td>
         <td class="T12" align="center"></td>
-        <td class="T12" align="center">103/10/14</td>
+        <td class="T12" align="center">104/02/06</td>
         <td align="center">
 			
 				
 				
-		            <img border="0" src="/tps/images/icon04.jpg" onclick="location.href='/tps/main/pms/tps/atm/atmHistoryAction.do?method=review&searchMode=common&pkPmsMainHist=59054021&awardNoticeDateOrgn=103/11/18'" />				
+		            <img border="0" src="/tps/images/icon04.jpg" onclick="location.href='/tps/main/pms/tps/atm/atmHistoryAction.do?method=review&searchMode=common&pkPmsMainHist=59653966&awardNoticeDateOrgn=104/02/13'" />				
 				
 			
         </td>
     </tr>
     
     <tr>
-        <td class="T12">本校光復校區污水處理廠圖控軟體升級與系統整合案</td>
+        <td class="T12">夜間委外血品運送366次</td>
         <td class="T12" align="center">02</td>
         <td class="T12" align="center">001</td>
         <td class="T12" align="center"></td>
-        <td class="T12" align="center">103/11/18</td>
+        <td class="T12" align="center">104/02/13</td>
         <td align="center">
 			
 				
 				
-		            <img border="0" src="/tps/images/icon04.jpg" onclick="location.href='/tps/main/pms/tps/atm/atmHistoryAction.do?method=review&searchMode=common&pkPmsMainHist=59238534&awardNoticeDateOrgn=103/11/18'" />				
+		            <img border="0" src="/tps/images/icon04.jpg" onclick="location.href='/tps/main/pms/tps/atm/atmHistoryAction.do?method=review&searchMode=common&pkPmsMainHist=59678692&awardNoticeDateOrgn=104/02/13'" />				
 				
 			
         </td>
@@ -2012,7 +2026,7 @@ function printBidder(pkItem){
       <span class="cbottom">歡迎本區第 </span>
       <span class="cright02"><strong class="counterValue"></strong></span>
       <span class="cbottom"> 位訪客(至098/12/31累計76003935人次)　台灣時間為 </span>
-      <noscript><strong class="cright02"> 21點32分</strong></noscript>
+      <noscript><strong class="cright02"> 13點37分</strong></noscript>
       <span class="cright02"><strong class="now_time"></strong></span>
 	  	<span class="cbottom">
 	  		<br>

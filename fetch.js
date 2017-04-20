@@ -3,9 +3,11 @@ import fs from 'fs'
 import qs from 'qs'
 import sleep from 'sleep'
 
-const timeRanges = [ '101/1/1-101/6/30', '101/7/1-101/12/31', '102/1/1-102/6/30', '102/7/1-102/12/31', '103/1/1-103/6/30', '103/7/1-103/12/31', '104/1/1-104/6/30', '104/7/1-104/12/31', '105/1/1-105/6/30', '105/7/1-105/12/31', '106/1/1-106/6/30' ]
-
 const querySentence = '其他服務'
+
+const timeRanges = [ process.argv[2] ]
+
+console.log(timeRanges)
 
 function fetchByUrlAndSave(url) {
   return new Promise((resolve, reject) => {
@@ -107,7 +109,7 @@ function fetchByTimeRange(timeRange) {
     })
   }
 
-  let startPage = 1
+  let startPage = parseInt(process.argv[3])
   let totalPage = 0
   return fetchByPage(startPage)
     .then(() => {

@@ -6,11 +6,11 @@
 
 <script language="JavaScript" src="/tps/scripts/atm/atm_check_info.js"></script>
 <script type="text/javascript" language="javascript">
-var printTitle = "定期彙送";
+var printTitle = "決標公告";
 var pView = "true";
 var test01 = "";
 function print_text_new(){
-	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51429163&print_type=printText&tenderCaseNo=10329&pkAtmMain4Success=51429163','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51466519&print_type=printText&tenderCaseNo=10329&pkAtmMain4Success=51466519','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 }
 
 
@@ -697,7 +697,7 @@ function popWatermark2(){
 function printBidder(pkItem){
 		//alert(pkItem);
 		
-		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51429163&pkAtmAwardItem='+pkItem+'&tenderCaseNo=10329','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51466519&pkAtmAwardItem='+pkItem+'&tenderCaseNo=10329','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 		
 }
 </script>
@@ -706,14 +706,14 @@ function printBidder(pkItem){
 <table border="1" cellpadding="0" cellspacing="0" width="100%" class="table_block tender_table">
 	
 	<caption style="display:none">
-		<center><FONT SIZE="5">定期彙送</FONT></center>		
-		<div id="printAwardDate" align="center" style="display:block">公告日:103/12/09</div>			
+		<center><FONT SIZE="5">決標公告</FONT></center>		
+		<div id="printAwardDate" align="center" style="display:block">公告日:104/01/08</div>			
 	</caption>
 	<tbody>
 	<tr>
 		<td align="center" colspan="4" style="border:1px solid #FFFFFF;">
-			<center><h1>定期彙送</h1></center>
-			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:103/12/09</h3></div>	
+			<center><h1>決標公告</h1></center>
+			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:104/01/08</h3></div>	
 			<div class="remind_msg"></div>			
 		</td>
 	</tr>	
@@ -730,7 +730,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關代碼</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			3.87.62
+			3.82.8.75
 		</td>
 		
 	</tr>
@@ -739,7 +739,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			臺中市清水區公所
+			新北市中和區光復國民小學
 		</td>
 		
 	</tr>
@@ -747,7 +747,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">單位名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-            臺中市清水區公所
+            新北市中和區光復國民小學
         </td>
 		
 	</tr>
@@ -765,7 +765,7 @@ function printBidder(pkItem){
 			                                     	
 	                         
 	                         
-	                         436臺中市清水區鎮政路101號
+	                         235新北市中和區光環路二段1號
 		</td>
 		
 	</tr>							
@@ -775,7 +775,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
 			
 			
-			人文課蔡叔芬
+			黃丞傑
 	</td>
 		
 	</tr>
@@ -785,7 +785,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
             
             
-            (04)26270151&nbsp;分機&nbsp;305
+            (02)32348654&nbsp;分機&nbsp;666
         </td>
 		
 	</tr>
@@ -795,7 +795,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
                               
                               
-                              (04)26270549
+                              (02)32348663
                           </td>
 		
 	</tr>
@@ -818,8 +818,6 @@ function printBidder(pkItem){
 			
 		
 		
-		
-			
 		
 		
 		
@@ -857,6 +855,8 @@ function printBidder(pkItem){
 		
 				
 		
+		
+			
 		
 		
 		
@@ -934,7 +934,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_2">
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99" class="T11b">新增公告傳輸次數</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			02								
+			01								
 		</td>
 		
 	</tr>
@@ -956,14 +956,14 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			2015臺灣燈會清水區造型花燈車委託設計製作服務案
+			04年度庶務性工作委外招標
 		</td>		
 	</tr>							
 	<tr class="award_table_tr_2">
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">決標資料類別</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			定期彙送
+			決標公告
 		</td>
 		
 	</tr>								
@@ -995,26 +995,12 @@ function printBidder(pkItem){
 			class="T11b">是否複數決標</th>
 		<td bgcolor="#EFF1F1" class="newstop">
 			
-			
 				
 			
 			
-			否
 			
-		</td>
-		
-	</tr>
-	
-	<tr class="award_table_tr_2">
-		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
-                    class="T11b">是否共同投標</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-		
-		
+			是
 			
-		
-		
-		否		                            
 		</td>
 		
 	</tr>
@@ -1077,7 +1063,7 @@ function printBidder(pkItem){
         <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
             width="200">開標時間</th>
         <td bgcolor="#EFF1F1" class="newstop">
-        	103/12/04 10:00
+        	103/12/30 09:00
         </td>
 
     </tr>
@@ -1086,7 +1072,7 @@ function printBidder(pkItem){
         <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
             width="200">原公告日期</th>
         <td bgcolor="#EFF1F1" class="newstop">
-        	103/11/24
+        	103/12/25
         	
         	<span>　　<span class="remind_msg">原公告日期係指最近1次招標公告或更正日期</span></span>
         </td>
@@ -1155,7 +1141,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">預算金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			250,000元
+			450,000元
                         
 	                        
 	                        
@@ -1174,27 +1160,65 @@ function printBidder(pkItem){
 			class="T11b">是否受機關補助</th>
 		<td bgcolor="#EFF1F1" class="newstop">
 			
-			
 				
 			
 			
-			否
+			
+			是
 		</td>
 		
 	</tr>
+	
+	
+	<tr class="award_table_tr_2">
+		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
+			class="T11b">&nbsp;</th>
+		<td bgcolor="#EFF1F1" class="newstop" colspan="2">
+			<table border="0" bgcolor="#FFCC66"	style="vertical-align: middle; text-align: center" summary="*">
+				<tr id="grant_org_item" align="center" valign="middle">
+					<td align="center" valign="middle" bgcolor="#FFFF99"
+						class="workstop" width="50" style="text-align: center">項次</td>
+					<td align="center" valign="middle" bgcolor="#FFFF99"
+						class="workstop" width="150">補助機關代碼</td>
+					<td align="center" valign="middle" bgcolor="#FFFF99"
+						class="workstop" width="150">補助機關名稱</td>
+					<td align="center" valign="middle" bgcolor="#FFFF99"
+						class="workstop" width="180">補助金額</td>
+				</tr>
+
+								
+					
+					<tr bgcolor="#FFFFC8">
+						<td bgcolor="#FFFFC8" align="center" class="T10" width="50">1</td>
+						<td bgcolor="#FFFFC8" align="center" class="T10" width="150">
+							3.82.4
+						</td>
+						<td bgcolor="#FFFFC8" align="center" class="T10" width="150">
+							新北市政府教育局
+						</td>
+						<td bgcolor="#FFFFC8" align="center" class="T10" width="180">
+							450,000元
+						</td>
+					</tr>
+					
+				
+			</table>
+		</td>
+	</tr>
+	
 	
 	<tr class="award_table_tr_2">
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">履約地點</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			 臺中市(非原住民地區)
+			 新北市(非原住民地區)
 		</td>		
 	</tr>
 	<tr class="award_table_tr_2">
 	    <th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 	        class="T11b">履約地點（含地區）</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	    	臺中市－清水區
+	    	新北市－中和區
 		</td>	    
 	</tr>
 		
@@ -1281,7 +1305,7 @@ function printBidder(pkItem){
 	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 			class="T11b">投標廠商家數</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			1
+			2
 		</td>
 
 	</tr>
@@ -1308,16 +1332,6 @@ function printBidder(pkItem){
 			class="T11b">　廠商代碼</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
 			
-				
-					
-					
-					
-						14582457
-					
-					 
-				
-				
-			
 		</td>
 		
 	</tr>
@@ -1327,7 +1341,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			崑德民俗糊紙花燈工藝社
+			黃河元
 		</td>
 		
 	</tr>
@@ -1349,7 +1363,7 @@ function printBidder(pkItem){
 	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 	        class="T11b">　組織型態</th>
 	    <td height="7" bgcolor="#EFF1F1" class="newstop">
-	    	 商業登記
+	    	 自然人
 	    	 
 	    </td>
 	    
@@ -1375,12 +1389,10 @@ function printBidder(pkItem){
 			
 				
 				
-									
-				
 			
 											
 			
-			406臺中市北屯區廍子里廍子路739號1樓
+			235新北市中和區
 		</td>
 	
 	</tr>
@@ -1392,10 +1404,11 @@ function printBidder(pkItem){
 		
 		
 		
-		(0932)
+		(02)
 			
 			
-				624491
+			
+				2225****
 		</td>
 		
 	</tr>
@@ -1404,7 +1417,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 			class="T11b">　決標金額</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
-		248,000元
+		225,000元
 		</td>
 		
 	</tr>
@@ -1442,7 +1455,173 @@ function printBidder(pkItem){
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
 			
 			
-			103/12/18－104/03/31
+			104/01/01－104/09/30
+		</td>
+		
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　雇用員工總人數是否<br>　超過100人</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+			
+	                         	
+	                         		                                	
+	                         	
+	                         	
+	                         否
+		</td>
+		
+	</tr>
+	<!-- isEmployeeOver100 -->							
+	<!-- isObtain -->
+	
+	<!-- isNotObtain end -->		
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">
+			
+			
+				
+				
+				
+					投標廠商2
+					
+				
+									
+		</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop"></td>
+		
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　廠商代碼</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+			
+		</td>
+		
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　廠商名稱</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+			
+			
+			呂玉娟
+		</td>
+		
+	</tr>
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　是否得標</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+          	
+          		                                	
+          	
+          	
+          	
+            是
+		</td>										
+	</tr>
+	
+	<tr>
+	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+	        class="T11b">　組織型態</th>
+	    <td height="7" bgcolor="#EFF1F1" class="newstop">
+	    	 自然人
+	    	 
+	    </td>
+	    
+	</tr>
+	
+	<tr>
+	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+	        class="T11b">　廠商業別</th>
+	    <td height="7" bgcolor="#EFF1F1" class="newstop">
+	    	其他
+	    	
+	    </td>
+	    
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle"
+			bgcolor="#ffdd83" class="T11b">　廠商地址</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+			
+			
+						
+			
+			
+				
+				
+			
+											
+			
+			235新北市中和區
+		</td>
+	
+	</tr>
+		                     
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　廠商電話</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+		
+		
+		
+		(02)
+			
+			
+			
+				2248****
+		</td>
+		
+	</tr>
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　決標金額</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+		225,000元
+		</td>
+		
+	</tr>
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　得標廠商國別</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+			中華民國(Republic of China (Taiwan))
+		</td>
+		
+	</tr>
+	
+	
+	
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　是否為中小企業</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+			
+	                         		                                	
+	                         	
+	                         	
+	                         	
+	                             是
+		</td>								
+		
+	</tr>
+	
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　履約起迄日期</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+			
+			
+			104/01/01－104/09/30
 		</td>
 		
 	</tr>
@@ -1494,7 +1673,7 @@ function printBidder(pkItem){
 	       	<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
 				class="T11b">決標品項數</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				1
+				2
 			</td>
 			
 		</tr>
@@ -1511,9 +1690,17 @@ function printBidder(pkItem){
 			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
 				class="T11b">　品項名稱</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				2015臺灣燈會清水區造型花燈車委託設計製作服務案
+				104年庶務性委外1
 			</td>
 			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　單位</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				人
+			</td>			
 		</tr>
 		
 		<tr>
@@ -1521,11 +1708,11 @@ function printBidder(pkItem){
 				class="T11b">　是否以單價及預估需<br>　求數量之乘積決定最<br>　低標</th>
 			<td bgcolor="#EFF1F1" class="newstop">
 								
-	                         	
 	                         		                                	
 	                         	
 	                         	
-	                             否
+	                         	
+	                             是
 			</td>
 			
 		</tr>
@@ -1547,19 +1734,30 @@ function printBidder(pkItem){
 			<td bgcolor="#EFF1F1" class="newstop">
 				
 				
-				崑德民俗糊紙花燈工藝社
+				黃河元
 			</td>
 			
 		</tr>
 		
 		
 		
+			                         	
+			<tr>
+				<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+					class="T11b">　　決標單價
+					
+				</th>
+				<td bgcolor="#EFF1F1" class="newstop">
+					25,000
+				</td>
+				
+			</tr>
 		
 		<tr>
 			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
 				class="T11b">　　預估需求數量</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				1
+				9
 			</td>
 			
 		</tr>
@@ -1574,33 +1772,10 @@ function printBidder(pkItem){
 				
 			</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				248,000
+				225,000
 			元</td>			
 		</tr>	
 		
-		
-		
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　底價金額
-				
-			</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-			248,800
-			元</td>
-			
-		</tr>
-		
-		
-		
-		
-		
-									
-		
-		
-		
-				
 				
 		
 		<tr>
@@ -1632,8 +1807,159 @@ function printBidder(pkItem){
 								    
 								    
 								
-									248,000元<br/>
-									貳<span style='color:red'>拾</span>肆萬捌仟元
+									225,000元<br/>
+									貳<span style='color:red'>拾</span>貳萬伍仟元
+								</td>
+							</tr>
+							
+							<tr>
+								<td class='newstop' colspan='2'><hr></td>
+							</tr>
+						
+					
+				</table>
+			</td>
+			
+		</tr>
+		
+					
+		
+		
+		
+		
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">第2品項</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+			
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　品項名稱</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				104年庶務性委外2
+			</td>
+			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　單位</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				人
+			</td>			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　是否以單價及預估需<br>　求數量之乘積決定最<br>　低標</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+								
+	                         		                                	
+	                         	
+	                         	
+	                         	
+	                             是
+			</td>
+			
+		</tr>
+		
+		
+					
+		
+					
+		
+ 		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　得標廠商1</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　得標廠商</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+				呂玉娟
+			</td>
+			
+		</tr>
+		
+		
+		
+			                         	
+			<tr>
+				<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+					class="T11b">　　決標單價
+					
+				</th>
+				<td bgcolor="#EFF1F1" class="newstop">
+					25,000
+				</td>
+				
+			</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　預估需求數量</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				9
+			</td>
+			
+		</tr>
+		
+		
+				
+		
+				
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　決標金額
+				
+			</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				225,000
+			元</td>			
+		</tr>	
+		
+				
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　原產地國別</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				<table id="table_ob_nation" border="0" cellpadding="0" cellspacing="1" class="shift">
+					
+						
+							<tr>
+								<td class="newstop" width="100px">原產地國別</td>
+								<td class="newstop">
+								
+								    
+								    	
+								    
+								    
+								
+								中華民國(Republic of China (Taiwan))
+								</td>
+							</tr>
+							
+							<tr>
+								<td class="newstop" valign="top">原產地國別<br/>得標金額</td>
+								<td class="newstop">
+								
+								    
+								    	
+								    
+								    
+								
+									225,000元<br/>
+									貳<span style='color:red'>拾</span>貳萬伍仟元
 								</td>
 							</tr>
 							
@@ -1669,13 +1995,11 @@ function printBidder(pkItem){
 		
 		
 		
+			
+		
 				
 		
 		
-			
-		
-		
-			
 		
 		
 		
@@ -1703,7 +2027,7 @@ function printBidder(pkItem){
 		
 		
 		<td align="center" valign="middle" bgcolor="#c79961"
-			class="form_head" width="38" rowspan="13">
+			class="form_head" width="38" rowspan="12">
 			<span class="newstop">決<br/>標<br/>資<br/>料</span>
 		</td>
 		
@@ -1719,7 +2043,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">決標日期</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			103/12/08
+			103/12/30
 			
 		</td>
 		
@@ -1728,9 +2052,18 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 	    <th bgcolor="#ddc09e" class="T11b" width="200">決標公告日期</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	        103/12/09
+	        104/01/08
 	    </td>
 	    
+	</tr>
+	
+	<tr class="award_table_tr_6">
+		<th bgcolor="#ddc09e" class="T11b" width="200">執行現況</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+		
+		全案已決標
+ 		</td>
+		
 	</tr>
 	
 	
@@ -1738,39 +2071,23 @@ function printBidder(pkItem){
 	    <th bgcolor="#ddc09e" class="T11b" width="200">是否刊登公報</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
 		
+		
 			
 		
 		
-		
-			是
+			否
 		</td>		
 	</tr>
 	
+							
 	
 		
-		<tr class="award_table_tr_6">
-			<th bgcolor="#ddc09e" class="T11b" width="200">底價金額</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-				248,800元
-			</td>			
-		</tr>		
-		
-		<tr class="award_table_tr_6">
-			<th bgcolor="#ddc09e" class="T11b" width="200">底價金額是否公開</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-				是
-				
-	                       </td>
-			
-		</tr>
-		
-							
 	
 	
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">總決標金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-		    248,000元
+		    450,000元
 		    
 				
 		</td>
@@ -1824,7 +2141,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			機關代碼：3.87.62<BR>機關名稱：臺中市清水區公所			
+			機關代碼：3.82.8.75<BR>機關名稱：新北市中和區光復國民小學			
 		</td>
 		
 	</tr>
@@ -1834,7 +2151,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">附加說明</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			本案於103.12.4下午14時進行評審作業，經評審委員一致通過採序位最低者列為優先議價廠商，本案崑德民俗糊紙花燈工藝社序位最低，並經委員一致通過崑德民俗糊紙花燈工藝社符合本所需要，擇定為辦理議價之廠商，並訂於103年12月8日進行議價程序，經第2次議價結果崑德民俗糊紙花燈工藝社報價新台幣（下同）248000元整最低，且在底價248800元整以內，經主持人當場宣布決標於該廠商。
+			
 		</td>
 		
 	</tr>
@@ -1848,54 +2165,6 @@ function printBidder(pkItem){
 </table>
               </div>
               
-
-
-<br>
-<div class="T12b">作業歷程</div>
-<table width="100%" style="border-collapse: collapse; border-color: #98badc; border-style: solid; border-width: 1px" cellspacing="0" cellpadding="0">
-    <tr bgcolor="#e0edf1">
-        <td class="T12b" align="center" width="45%">標案名稱</td>
-        <td class="T12b" align="center" width="12%">招標<br>傳輸次數</td>
-        <td class="T12b" align="center" width="10%">決標<br>序號</td>
-        <td class="T12b" align="center" width="12%">決標<br>更正序號</td>
-        <td class="T12b" align="center" width="15%">決標<br>公告日期</td>
-        <td class="T12b" align="center" width="6%">檢<br>視</td>
-    </tr>
-    
-    <tr>
-        <td class="T12">2015臺灣燈會清水區造型花燈車委託設計製作服務案</td>
-        <td class="T12" align="center">01</td>
-        <td class="T12" align="center">001</td>
-        <td class="T12" align="center"></td>
-        <td class="T12" align="center">103/11/21</td>
-        <td align="center">
-			
-				
-				
-		            <img border="0" src="/tps/images/icon04.jpg" onclick="location.href='/tps/main/pms/tps/atm/atmHistoryAction.do?method=review&searchMode=common&pkPmsMainHist=59257020&awardNoticeDateOrgn=103/12/09'" />				
-				
-			
-        </td>
-    </tr>
-    
-    <tr>
-        <td class="T12">2015臺灣燈會清水區造型花燈車委託設計製作服務案</td>
-        <td class="T12" align="center">02</td>
-        <td class="T12" align="center">001</td>
-        <td class="T12" align="center"></td>
-        <td class="T12" align="center">103/12/09</td>
-        <td align="center">
-			
-				
-				
-		            <img border="0" src="/tps/images/icon04.jpg" onclick="location.href='/tps/main/pms/tps/atm/atmHistoryAction.do?method=review&searchMode=common&pkPmsMainHist=59364520&awardNoticeDateOrgn=103/12/09'" />				
-				
-			
-        </td>
-    </tr>
-    
-</table>
-
               </td>
 			</tr>
 			<tr>
@@ -2016,7 +2285,7 @@ function printBidder(pkItem){
       <span class="cbottom">歡迎本區第 </span>
       <span class="cright02"><strong class="counterValue"></strong></span>
       <span class="cbottom"> 位訪客(至098/12/31累計76003935人次)　台灣時間為 </span>
-      <noscript><strong class="cright02"> 20點44分</strong></noscript>
+      <noscript><strong class="cright02"> 14點19分</strong></noscript>
       <span class="cright02"><strong class="now_time"></strong></span>
 	  	<span class="cbottom">
 	  		<br>

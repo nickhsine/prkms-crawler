@@ -6,11 +6,11 @@
 
 <script language="JavaScript" src="/tps/scripts/atm/atm_check_info.js"></script>
 <script type="text/javascript" language="javascript">
-var printTitle = "決標公告";
+var printTitle = "定期彙送";
 var pView = "true";
 var test01 = "";
 function print_text_new(){
-	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51332443&print_type=printText&tenderCaseNo=10311&pkAtmMain4Success=51332443','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51460582&print_type=printText&tenderCaseNo=10311&pkAtmMain4Success=51460582','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 }
 
 
@@ -697,7 +697,7 @@ function popWatermark2(){
 function printBidder(pkItem){
 		//alert(pkItem);
 		
-		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51332443&pkAtmAwardItem='+pkItem+'&tenderCaseNo=10311','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51460582&pkAtmAwardItem='+pkItem+'&tenderCaseNo=10311','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 		
 }
 </script>
@@ -706,14 +706,14 @@ function printBidder(pkItem){
 <table border="1" cellpadding="0" cellspacing="0" width="100%" class="table_block tender_table">
 	
 	<caption style="display:none">
-		<center><FONT SIZE="5">決標公告</FONT></center>		
-		<div id="printAwardDate" align="center" style="display:block">公告日:103/08/20</div>			
+		<center><FONT SIZE="5">定期彙送</FONT></center>		
+		<div id="printAwardDate" align="center" style="display:block">公告日:104/01/05</div>			
 	</caption>
 	<tbody>
 	<tr>
 		<td align="center" colspan="4" style="border:1px solid #FFFFFF;">
-			<center><h1>決標公告</h1></center>
-			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:103/08/20</h3></div>	
+			<center><h1>定期彙送</h1></center>
+			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:104/01/05</h3></div>	
 			<div class="remind_msg"></div>			
 		</td>
 	</tr>	
@@ -730,7 +730,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關代碼</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			3.76.50.71
+			3.13.15.1
 		</td>
 		
 	</tr>
@@ -739,7 +739,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			嘉義縣朴子市公所
+			經濟部標準檢驗局基隆分局
 		</td>
 		
 	</tr>
@@ -747,7 +747,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">單位名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-            嘉義縣朴子市公所
+            經濟部標準檢驗局基隆分局
         </td>
 		
 	</tr>
@@ -765,7 +765,7 @@ function printBidder(pkItem){
 			                                     	
 	                         
 	                         
-	                         613嘉義縣朴子市光復路34號
+	                         200基隆市仁愛區港西街八號
 		</td>
 		
 	</tr>							
@@ -775,7 +775,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
 			
 			
-			建設課：侯錦豪
+			楊生發
 	</td>
 		
 	</tr>
@@ -785,7 +785,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
             
             
-            (05)3791929
+            (02)24231151&nbsp;分機&nbsp;2062
         </td>
 		
 	</tr>
@@ -795,7 +795,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
                               
                               
-                              (05)3704025
+                              (02)24228910
                           </td>
 		
 	</tr>
@@ -805,17 +805,17 @@ function printBidder(pkItem){
 	
 	
 		
-			
-			
-			
-				
-			
-			
-			
-				
-			
-			
 		
+			
+			
+			
+				
+			
+			
+			
+				
+			
+			
 		
 	 		
 	<tr class="award_table_tr_2">
@@ -935,11 +935,11 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">決標方式</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			最高標
+			最低標
 			<div class="remind_msg">
 				
 			</div>
-			本案屬收入性質採購			
+						
 		</td>
 		
 	</tr>
@@ -947,7 +947,7 @@ function printBidder(pkItem){
 	                           
 	<tr class="award_table_tr_2">
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99" class="T11b">
-	    	是否依「機關異質採購<br>最低標作業須知」辦理
+	    	是否依政府採購法施行<br>細則第64條之2辦理
 		</th>
 		<td bgcolor="#EFF1F1" class="newstop">
 			否
@@ -962,7 +962,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_2">
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99" class="T11b">新增公告傳輸次數</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			02								
+			01								
 		</td>
 		
 	</tr>
@@ -984,14 +984,14 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			嘉義縣朴子市第一公有零售市場地下室停車場委託經營管理
+			委辦試驗樣品裁切等相關工作
 		</td>		
 	</tr>							
 	<tr class="award_table_tr_2">
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">決標資料類別</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			決標公告
+			定期彙送
 		</td>
 		
 	</tr>								
@@ -1105,7 +1105,7 @@ function printBidder(pkItem){
         <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
             width="200">開標時間</th>
         <td bgcolor="#EFF1F1" class="newstop">
-        	103/08/12 10:00
+        	103/12/31 10:00
         </td>
 
     </tr>
@@ -1114,7 +1114,7 @@ function printBidder(pkItem){
         <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
             width="200">原公告日期</th>
         <td bgcolor="#EFF1F1" class="newstop">
-        	103/08/04
+        	103/12/24
         	
         	<span>　　<span class="remind_msg">原公告日期係指最近1次招標公告或更正日期</span></span>
         </td>
@@ -1183,15 +1183,13 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">預算金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			0元
+			291,600元
                         
 	                        
 	                        
 	                        	
 	                        
                         
-                        
-                        	<div>預算金額為 0 原因：屬收入性質採購</div>
                         
 						
                     </td>
@@ -1217,14 +1215,14 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">履約地點</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			 嘉義縣(非原住民地區)
+			 基隆市(非原住民地區)
 		</td>		
 	</tr>
 	<tr class="award_table_tr_2">
 	    <th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 	        class="T11b">履約地點（含地區）</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	    	嘉義縣－朴子
+	    	基隆市－仁愛區
 		</td>	    
 	</tr>
 		
@@ -1273,9 +1271,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">本案採購契約是否採用主管機關訂定之範本</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			否
-			
-				<br/>不採用主管機關訂定之範本之理由：採用自訂契約較符合本所須求
+			是
 			
 		</td>		
 	</tr>
@@ -1313,7 +1309,7 @@ function printBidder(pkItem){
 	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 			class="T11b">投標廠商家數</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			2
+			1
 		</td>
 
 	</tr>
@@ -1340,6 +1336,16 @@ function printBidder(pkItem){
 			class="T11b">　廠商代碼</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
 			
+				
+					
+					
+					
+						18307333
+					
+					 
+				
+				
+			
 		</td>
 		
 	</tr>
@@ -1349,7 +1355,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			翁孟雲
+			陳氏清潔工程行
 		</td>
 		
 	</tr>
@@ -1371,7 +1377,7 @@ function printBidder(pkItem){
 	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 	        class="T11b">　組織型態</th>
 	    <td height="7" bgcolor="#EFF1F1" class="newstop">
-	    	 自然人
+	    	 商業登記
 	    	 
 	    </td>
 	    
@@ -1397,10 +1403,12 @@ function printBidder(pkItem){
 			
 				
 				
+									
+				
 			
 											
 			
-			736臺南市柳營區
+			203基隆市中山區中和里中和路一六八巷七弄二八號一樓
 		</td>
 	
 	</tr>
@@ -1412,11 +1420,10 @@ function printBidder(pkItem){
 		
 		
 		
-		(09)
+		(0910)
 			
 			
-			
-				8773****
+				090509
 		</td>
 		
 	</tr>
@@ -1425,7 +1432,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 			class="T11b">　決標金額</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
-		1,080,000元
+		286,800元
 		</td>
 		
 	</tr>
@@ -1463,7 +1470,7 @@ function printBidder(pkItem){
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
 			
 			
-			104/01/01－106/01/01
+			104/01/01－104/12/31
 		</td>
 		
 	</tr>
@@ -1483,70 +1490,6 @@ function printBidder(pkItem){
 	<!-- isEmployeeOver100 -->							
 	<!-- isObtain -->
 	
-	<!-- isNotObtain end -->		
-	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">
-			
-			
-				
-				
-				
-					投標廠商2
-					
-				
-									
-		</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop"></td>
-		
-	</tr>
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　廠商代碼</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			
-		</td>
-		
-	</tr>
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　廠商名稱</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-			
-			
-			許茂松
-		</td>
-		
-	</tr>
-	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　是否得標</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-          	
-          	
-          		                                	
-          	
-          	
-            否
-		</td>										
-	</tr>
-	
-	<tr>
-	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-	        class="T11b">　組織型態</th>
-	    <td height="7" bgcolor="#EFF1F1" class="newstop">
-	    	 自然人
-	    	 
-	    </td>
-	    
-	</tr>
-	<!-- isObtain -->
-	
-	<!-- isNotObtain start -->
-		 
-		
 	<!-- isNotObtain end -->		
 	
 	</table>
@@ -1596,7 +1539,7 @@ function printBidder(pkItem){
 			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
 				class="T11b">　品項名稱</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				嘉義縣朴子市第一公有零售市場地下室停車場委託經營管理
+				委辦試驗樣品裁切等相關工作
 			</td>
 			
 		</tr>
@@ -1632,7 +1575,7 @@ function printBidder(pkItem){
 			<td bgcolor="#EFF1F1" class="newstop">
 				
 				
-				翁孟雲
+				陳氏清潔工程行
 			</td>
 			
 		</tr>
@@ -1659,7 +1602,7 @@ function printBidder(pkItem){
 				
 			</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				1,080,000
+				286,800
 			元</td>			
 		</tr>	
 		
@@ -1672,10 +1615,12 @@ function printBidder(pkItem){
 				
 			</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-			960,000
+			289,000
 			元</td>
 			
 		</tr>
+		
+		
 		
 		
 		
@@ -1715,8 +1660,8 @@ function printBidder(pkItem){
 								    
 								    
 								
-									1,080,000元<br/>
-									壹<span style='color:red'>佰</span>零捌萬元
+									286,800元<br/>
+									貳<span style='color:red'>拾</span>捌萬陸仟捌佰元
 								</td>
 							</tr>
 							
@@ -1729,61 +1674,6 @@ function printBidder(pkItem){
 			</td>
 			
 		</tr>
-		
-		
-				
-		
- 			
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　未得標廠商1</th>
-			<td bgcolor="#EFF1F1" class="newstop"></td>
-
-		</tr>
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　未得標廠商</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-				
-				
-				許茂松
-			</td>
-			
-		</tr>
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　是否合格</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-			
-				
-			
-			
-			
-			是
-			</td>
-			
-		</tr>
-		
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　標價金額</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-			1,008,100
-			元</td>
-			
-		</tr>
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-	                        資格、規格合於招標文件但非最低(高)標
-	                        
-	                        
-			</td>			
-		</tr>
-		
-		
 		
 		
 		
@@ -1857,7 +1747,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">決標日期</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			103/08/12
+			103/12/31
 			
 		</td>
 		
@@ -1866,7 +1756,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 	    <th bgcolor="#ddc09e" class="T11b" width="200">決標公告日期</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	        103/08/20
+	        104/01/05
 	    </td>
 	    
 	</tr>
@@ -1889,7 +1779,7 @@ function printBidder(pkItem){
 		<tr class="award_table_tr_6">
 			<th bgcolor="#ddc09e" class="T11b" width="200">底價金額</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				960,000元
+				289,000元
 			</td>			
 		</tr>		
 		
@@ -1908,7 +1798,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">總決標金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-		    1,080,000元
+		    286,800元
 		    
 				
 		</td>
@@ -1962,7 +1852,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			機關代碼：3.76.50.71<BR>機關名稱：嘉義縣朴子市公所			
+			機關代碼：3.13.15.1<BR>機關名稱：經濟部標準檢驗局基隆分局			
 		</td>
 		
 	</tr>
@@ -1986,54 +1876,6 @@ function printBidder(pkItem){
 </table>
               </div>
               
-
-
-<br>
-<div class="T12b">作業歷程</div>
-<table width="100%" style="border-collapse: collapse; border-color: #98badc; border-style: solid; border-width: 1px" cellspacing="0" cellpadding="0">
-    <tr bgcolor="#e0edf1">
-        <td class="T12b" align="center" width="45%">標案名稱</td>
-        <td class="T12b" align="center" width="12%">招標<br>傳輸次數</td>
-        <td class="T12b" align="center" width="10%">決標<br>序號</td>
-        <td class="T12b" align="center" width="12%">決標<br>更正序號</td>
-        <td class="T12b" align="center" width="15%">決標<br>公告日期</td>
-        <td class="T12b" align="center" width="6%">檢<br>視</td>
-    </tr>
-    
-    <tr>
-        <td class="T12">嘉義縣朴子市第一公有零售市場地下室停車場委託經營管理</td>
-        <td class="T12" align="center">01</td>
-        <td class="T12" align="center">001</td>
-        <td class="T12" align="center"></td>
-        <td class="T12" align="center">103/07/31</td>
-        <td align="center">
-			
-				
-				
-		            <img border="0" src="/tps/images/icon04.jpg" onclick="location.href='/tps/main/pms/tps/atm/atmHistoryAction.do?method=review&searchMode=common&pkPmsMainHist=58738113&awardNoticeDateOrgn=103/08/20'" />				
-				
-			
-        </td>
-    </tr>
-    
-    <tr>
-        <td class="T12">嘉義縣朴子市第一公有零售市場地下室停車場委託經營管理</td>
-        <td class="T12" align="center">02</td>
-        <td class="T12" align="center">001</td>
-        <td class="T12" align="center"></td>
-        <td class="T12" align="center">103/08/20</td>
-        <td align="center">
-			
-				
-				
-		            <img border="0" src="/tps/images/icon04.jpg" onclick="location.href='/tps/main/pms/tps/atm/atmHistoryAction.do?method=review&searchMode=common&pkPmsMainHist=58819205&awardNoticeDateOrgn=103/08/20'" />				
-				
-			
-        </td>
-    </tr>
-    
-</table>
-
               </td>
 			</tr>
 			<tr>
@@ -2154,7 +1996,7 @@ function printBidder(pkItem){
       <span class="cbottom">歡迎本區第 </span>
       <span class="cright02"><strong class="counterValue"></strong></span>
       <span class="cbottom"> 位訪客(至098/12/31累計76003935人次)　台灣時間為 </span>
-      <noscript><strong class="cright02"> 22點8分</strong></noscript>
+      <noscript><strong class="cright02"> 14點22分</strong></noscript>
       <span class="cright02"><strong class="now_time"></strong></span>
 	  	<span class="cbottom">
 	  		<br>

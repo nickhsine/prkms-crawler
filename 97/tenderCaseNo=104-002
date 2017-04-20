@@ -10,7 +10,7 @@ var printTitle = "決標公告";
 var pView = "true";
 var test01 = "";
 function print_text_new(){
-	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51436186&print_type=printText&tenderCaseNo=104-002&pkAtmMain4Success=51436186','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51532138&print_type=printText&tenderCaseNo=104-002&pkAtmMain4Success=51532138','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 }
 
 
@@ -697,7 +697,7 @@ function popWatermark2(){
 function printBidder(pkItem){
 		//alert(pkItem);
 		
-		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51436186&pkAtmAwardItem='+pkItem+'&tenderCaseNo=104-002','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51532138&pkAtmAwardItem='+pkItem+'&tenderCaseNo=104-002','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 		
 }
 </script>
@@ -707,13 +707,13 @@ function printBidder(pkItem){
 	
 	<caption style="display:none">
 		<center><FONT SIZE="5">決標公告</FONT></center>		
-		<div id="printAwardDate" align="center" style="display:block">公告日:103/12/15</div>			
+		<div id="printAwardDate" align="center" style="display:block">公告日:104/04/23</div>			
 	</caption>
 	<tbody>
 	<tr>
 		<td align="center" colspan="4" style="border:1px solid #FFFFFF;">
 			<center><h1>決標公告</h1></center>
-			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:103/12/15</h3></div>	
+			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:104/04/23</h3></div>	
 			<div class="remind_msg"></div>			
 		</td>
 	</tr>	
@@ -730,7 +730,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關代碼</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			3.76.42.23
+			A.25.3
 		</td>
 		
 	</tr>
@@ -739,7 +739,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			宜蘭縣立體育場
+			國立傳統藝術中心
 		</td>
 		
 	</tr>
@@ -747,7 +747,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">單位名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-            宜蘭縣立體育場
+            臺灣豫劇團
         </td>
 		
 	</tr>
@@ -765,7 +765,7 @@ function printBidder(pkItem){
 			                                     	
 	                         
 	                         
-	                         260宜蘭縣宜蘭市中山路一段755號
+	                         813高雄市左營區實踐路102號
 		</td>
 		
 	</tr>							
@@ -775,7 +775,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
 			
 			
-			游國銘
+			吳春菊
 	</td>
 		
 	</tr>
@@ -785,7 +785,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
             
             
-            (03)9254034
+            (07)5828753&nbsp;分機&nbsp;12
         </td>
 		
 	</tr>
@@ -795,7 +795,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
                               
                               
-                              (03)9253454
+                              (07)5877214
                           </td>
 		
 	</tr>
@@ -803,28 +803,10 @@ function printBidder(pkItem){
 <!-- delimiter 機關資料 End -->
 <!-- delimiter 已公告/採購資料 Start -->
 	
-	
-		
-		
-			
-			
-			
-				
-			
-			
-			
-				
-			
-			
-		
 	 		
 	<tr class="award_table_tr_2">
 		
 		
-			
-		
-		
-			
 		
 		
 		
@@ -846,14 +828,14 @@ function printBidder(pkItem){
 		
 				
 		
+				
+		
+				
+		
+				
+		
 		
 			
-				
-		
-				
-		
-				
-		
 		
 		
 		
@@ -893,6 +875,14 @@ function printBidder(pkItem){
 		
 				
 			
+			
+		
+		
+		
+			
+						
+		
+		
 		
 		
 		
@@ -900,10 +890,10 @@ function printBidder(pkItem){
 		
 		
 		<td align="center" valign="middle" bgcolor="#FCD847"
-			class="form_head" width="38" rowspan="29 ">
+			class="form_head" width="38" rowspan="28 ">
 			
-			<span class="newstop">已<br/>公<br/>告<br/>資<br/>料</span>
 			
+			<span class="newstop">採<br/>購<br/>資<br/>料</span>
 			
 		</td>
 	</tr>							
@@ -919,7 +909,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">招標方式</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			公開招標
+			限制性招標(未經公開評選或公開徵求)
 			<div class="remind_msg">
 				
 			</div>
@@ -939,30 +929,7 @@ function printBidder(pkItem){
 		
 	</tr>
 	
-	                           
-	<tr class="award_table_tr_2">
-		<th width="200" align="left" valign="middle" bgcolor="#FFFF99" class="T11b">
-	    	是否依政府採購法施行<br>細則第64條之2辦理
-		</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-			否
-			<div class="remind_msg">
-				
-			</div>			
-		</td>	    
-	</tr>
 	
-	
-	  
-	<tr class="award_table_tr_2">
-		<th width="200" align="left" valign="middle" bgcolor="#FFFF99" class="T11b">新增公告傳輸次數</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-			02								
-		</td>
-		
-	</tr>
-		
-	  
 	
     <tr class="award_table_tr_2">
         <th width="200" align="left" valign="middle" bgcolor="#FFFF99"
@@ -979,7 +946,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			104年度宜蘭運動公園植栽撫育與環境清潔維護案
+			2015年度大戲《天問》擔任本團客席編腔作曲及來台音樂指導
 		</td>		
 	</tr>							
 	<tr class="award_table_tr_2">
@@ -1100,18 +1067,7 @@ function printBidder(pkItem){
         <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
             width="200">開標時間</th>
         <td bgcolor="#EFF1F1" class="newstop">
-        	103/12/02 14:00
-        </td>
-
-    </tr>
-    
-    <tr class="award_table_tr_2">
-        <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
-            width="200">原公告日期</th>
-        <td bgcolor="#EFF1F1" class="newstop">
-        	103/11/26
-        	
-        	<span>　　<span class="remind_msg">原公告日期係指最近1次招標公告或更正日期</span></span>
+        	104/03/10 10:00
         </td>
 
     </tr>
@@ -1122,13 +1078,13 @@ function printBidder(pkItem){
             class="T11b">採購金額級距</th>
         <td bgcolor="#EFF1F1" class="newstop">
         	
-        	
         		
         	
         	
         	
         	
-        	公告金額以上未達查核金額
+        	
+        	未達公告金額
 			<div class="remind_msg">
 				
 			</div>
@@ -1152,6 +1108,19 @@ function printBidder(pkItem){
 	</tr>    
 	
 	
+	
+	<tr class="award_table_tr_2">
+	    <th width="200" align="left" valign="middle" bgcolor="#FFFF99"
+	        class="T11b">限制性招標<br>依據之法條</th>
+	    <td bgcolor="#EFF1F1" class="newstop">
+	    	採購法第22條第1項第14款
+	
+	
+	
+	        
+	                                            
+	    </td>
+	</tr>
 	
 		
     
@@ -1220,6 +1189,11 @@ function printBidder(pkItem){
 	</tr>
 		        
 		
+		
+	
+	
+		
+		
 		     
     <tr class="award_table_tr_2">
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
@@ -1240,12 +1214,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">預算金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			3,199,994元
-                        
-	                        
-	                        
-	                        	
-	                        
+			230,000元
                         
                         
 						
@@ -1272,16 +1241,31 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">履約地點</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			 宜蘭縣(非原住民地區)
+			 高雄市(非原住民地區)
 		</td>		
 	</tr>
 	<tr class="award_table_tr_2">
 	    <th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 	        class="T11b">履約地點（含地區）</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	    	宜蘭縣－宜蘭
+	    	高雄市－全區
 		</td>	    
 	</tr>
+		
+	
+	
+	
+		<tr class="award_table_tr_2">
+			<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
+				class="T11b">是否於招標文件載明優先決標予身心障礙福利機構團體或庇護工場</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				否
+			</td>		
+		</tr>
+					
+	
+	
+		
 				
 	
 		
@@ -1309,7 +1293,9 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">本案採購契約是否採用主管機關訂定之範本</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			是
+			否
+			
+				<br/>不採用主管機關訂定之範本之理由：已有前例範本.
 			
 		</td>		
 	</tr>
@@ -1347,7 +1333,7 @@ function printBidder(pkItem){
 	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 			class="T11b">投標廠商家數</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			2
+			1
 		</td>
 
 	</tr>
@@ -1374,16 +1360,6 @@ function printBidder(pkItem){
 			class="T11b">　廠商代碼</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
 			
-				
-					
-					
-					
-						53856588
-					
-					 
-				
-				
-			
 		</td>
 		
 	</tr>
@@ -1393,7 +1369,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			迅聯動力機械有限公司
+			張廷營
 		</td>
 		
 	</tr>
@@ -1415,8 +1391,10 @@ function printBidder(pkItem){
 	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 	        class="T11b">　組織型態</th>
 	    <td height="7" bgcolor="#EFF1F1" class="newstop">
-	    	 公司登記
+	    	 自然人
 	    	 
+             	<span class="remind_msg">(外國)</span>
+             
 	    </td>
 	    
 	</tr>
@@ -1441,12 +1419,10 @@ function printBidder(pkItem){
 			
 				
 				
-									
-				
 			
 											
 			
-			262宜蘭縣礁溪鄉大忠村大忠路173號1樓
+			813高雄市左營區
 		</td>
 	
 	</tr>
@@ -1458,10 +1434,14 @@ function printBidder(pkItem){
 		
 		
 		
-		(03)
+		(07)
 			
 			
-				9870737
+			
+				582****				
+			
+			
+			&nbsp;分機12
 		</td>
 		
 	</tr>
@@ -1470,7 +1450,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 			class="T11b">　決標金額</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
-		3,050,000元
+		230,000元
 		</td>
 		
 	</tr>
@@ -1479,7 +1459,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 			class="T11b">　得標廠商國別</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			中華民國(Republic of China (Taiwan))
+			中國大陸(Mainland China)
 		</td>
 		
 	</tr>
@@ -1508,7 +1488,8 @@ function printBidder(pkItem){
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
 			
 			
-			104/01/01－104/12/31
+			104/11/02－104/12/01
+				(預估)
 		</td>
 		
 	</tr>
@@ -1528,80 +1509,6 @@ function printBidder(pkItem){
 	<!-- isEmployeeOver100 -->							
 	<!-- isObtain -->
 	
-	<!-- isNotObtain end -->		
-	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">
-			
-			
-				
-				
-				
-					投標廠商2
-					
-				
-									
-		</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop"></td>
-		
-	</tr>
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　廠商代碼</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			
-				
-				
-					
-					
-					
-						24628278
-					
-					 											
-				
-			
-		</td>
-		
-	</tr>
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　廠商名稱</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-			
-			
-			藝來道綠化有限公司
-		</td>
-		
-	</tr>
-	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　是否得標</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-          	
-          	
-          		                                	
-          	
-          	
-            否
-		</td>										
-	</tr>
-	
-	<tr>
-	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-	        class="T11b">　組織型態</th>
-	    <td height="7" bgcolor="#EFF1F1" class="newstop">
-	    	 公司登記
-	    	 
-	    </td>
-	    
-	</tr>
-	<!-- isObtain -->
-	
-	<!-- isNotObtain start -->
-		 
-		
 	<!-- isNotObtain end -->		
 	
 	</table>
@@ -1651,7 +1558,7 @@ function printBidder(pkItem){
 			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
 				class="T11b">　品項名稱</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				104年度宜蘭運動公園植栽撫育與環境清潔維護案
+				2015年度大戲《天問》擔任本團客席編腔作曲及來台音樂指導
 			</td>
 			
 		</tr>
@@ -1687,7 +1594,7 @@ function printBidder(pkItem){
 			<td bgcolor="#EFF1F1" class="newstop">
 				
 				
-				迅聯動力機械有限公司
+				張廷營
 			</td>
 			
 		</tr>
@@ -1714,7 +1621,7 @@ function printBidder(pkItem){
 				
 			</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				3,050,000
+				230,000
 			元</td>			
 		</tr>	
 		
@@ -1727,10 +1634,14 @@ function printBidder(pkItem){
 				
 			</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-			3,155,000
+			230,000
 			元</td>
 			
 		</tr>
+		
+		
+		
+		
 		
 									
 		
@@ -1768,8 +1679,8 @@ function printBidder(pkItem){
 								    
 								    
 								
-									3,050,000元<br/>
-									參<span style='color:red'>佰</span>零伍萬元
+									230,000元<br/>
+									貳<span style='color:red'>拾</span>參萬元
 								</td>
 							</tr>
 							
@@ -1782,69 +1693,6 @@ function printBidder(pkItem){
 			</td>
 			
 		</tr>
-		
-		
-				
-		
- 			
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　未得標廠商1</th>
-			<td bgcolor="#EFF1F1" class="newstop"></td>
-
-		</tr>
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　未得標廠商</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-				
-				
-				藝來道綠化有限公司
-			</td>
-			
-		</tr>
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　是否合格</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-			
-				
-			
-			
-			
-			是
-			</td>
-			
-		</tr>
-		
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　標價金額</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-			3,090,087
-			元</td>
-			
-		</tr>
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-	                        資格、規格合於招標文件但非最低(高)標
-	                        
-	                        
-			</td>			
-		</tr>
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　標價偏低理由</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-				
-				
-			</td>			
-		</tr>
-		
-		
 		
 		
 		
@@ -1918,7 +1766,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">決標日期</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			103/12/11
+			104/03/12
 			
 		</td>
 		
@@ -1927,7 +1775,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 	    <th bgcolor="#ddc09e" class="T11b" width="200">決標公告日期</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	        103/12/15
+	        104/04/23
 	    </td>
 	    
 	</tr>
@@ -1950,7 +1798,7 @@ function printBidder(pkItem){
 		<tr class="award_table_tr_6">
 			<th bgcolor="#ddc09e" class="T11b" width="200">底價金額</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				3,155,000元
+				230,000元
 			</td>			
 		</tr>		
 		
@@ -1969,8 +1817,12 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">總決標金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-		    3,050,000元
+		    230,000元
 		    
+			
+					<div class="shift">決標金額係以預估條件估算之預估金額。<br/>
+					估算方式：依市場行情預估.
+					</div>
 				
 		</td>
 		
@@ -2023,7 +1875,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			機關代碼：3.76.42.23<BR>機關名稱：宜蘭縣立體育場			
+			機關代碼：A.25.3<BR>機關名稱：國立傳統藝術中心			
 		</td>
 		
 	</tr>
@@ -2047,54 +1899,6 @@ function printBidder(pkItem){
 </table>
               </div>
               
-
-
-<br>
-<div class="T12b">作業歷程</div>
-<table width="100%" style="border-collapse: collapse; border-color: #98badc; border-style: solid; border-width: 1px" cellspacing="0" cellpadding="0">
-    <tr bgcolor="#e0edf1">
-        <td class="T12b" align="center" width="45%">標案名稱</td>
-        <td class="T12b" align="center" width="12%">招標<br>傳輸次數</td>
-        <td class="T12b" align="center" width="10%">決標<br>序號</td>
-        <td class="T12b" align="center" width="12%">決標<br>更正序號</td>
-        <td class="T12b" align="center" width="15%">決標<br>公告日期</td>
-        <td class="T12b" align="center" width="6%">檢<br>視</td>
-    </tr>
-    
-    <tr>
-        <td class="T12">104年度宜蘭運動公園植栽撫育與環境清潔維護案</td>
-        <td class="T12" align="center">01</td>
-        <td class="T12" align="center">001</td>
-        <td class="T12" align="center"></td>
-        <td class="T12" align="center">103/11/26</td>
-        <td align="center">
-			
-				
-				
-		            <img border="0" src="/tps/images/icon04.jpg" onclick="location.href='/tps/main/pms/tps/atm/atmHistoryAction.do?method=review&searchMode=common&pkPmsMainHist=59279978&awardNoticeDateOrgn=103/12/15'" />				
-				
-			
-        </td>
-    </tr>
-    
-    <tr>
-        <td class="T12">104年度宜蘭運動公園植栽撫育與環境清潔維護案</td>
-        <td class="T12" align="center">02</td>
-        <td class="T12" align="center">001</td>
-        <td class="T12" align="center"></td>
-        <td class="T12" align="center">103/12/15</td>
-        <td align="center">
-			
-				
-				
-		            <img border="0" src="/tps/images/icon04.jpg" onclick="location.href='/tps/main/pms/tps/atm/atmHistoryAction.do?method=review&searchMode=common&pkPmsMainHist=59405930&awardNoticeDateOrgn=103/12/15'" />				
-				
-			
-        </td>
-    </tr>
-    
-</table>
-
               </td>
 			</tr>
 			<tr>
@@ -2215,7 +2019,7 @@ function printBidder(pkItem){
       <span class="cbottom">歡迎本區第 </span>
       <span class="cright02"><strong class="counterValue"></strong></span>
       <span class="cbottom"> 位訪客(至098/12/31累計76003935人次)　台灣時間為 </span>
-      <noscript><strong class="cright02"> 20點39分</strong></noscript>
+      <noscript><strong class="cright02"> 14點46分</strong></noscript>
       <span class="cright02"><strong class="now_time"></strong></span>
 	  	<span class="cbottom">
 	  		<br>

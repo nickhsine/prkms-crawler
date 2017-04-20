@@ -10,7 +10,7 @@ var printTitle = "決標公告";
 var pView = "true";
 var test01 = "";
 function print_text_new(){
-	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51170336&print_type=printText&tenderCaseNo=103015&pkAtmMain4Success=51170336','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51520509&print_type=printText&tenderCaseNo=103015&pkAtmMain4Success=51520509','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 }
 
 
@@ -697,7 +697,7 @@ function popWatermark2(){
 function printBidder(pkItem){
 		//alert(pkItem);
 		
-		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51170336&pkAtmAwardItem='+pkItem+'&tenderCaseNo=103015','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51520509&pkAtmAwardItem='+pkItem+'&tenderCaseNo=103015','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 		
 }
 </script>
@@ -707,13 +707,13 @@ function printBidder(pkItem){
 	
 	<caption style="display:none">
 		<center><FONT SIZE="5">決標公告</FONT></center>		
-		<div id="printAwardDate" align="center" style="display:block">公告日:103/01/21</div>			
+		<div id="printAwardDate" align="center" style="display:block">公告日:104/04/08</div>			
 	</caption>
 	<tbody>
 	<tr>
 		<td align="center" colspan="4" style="border:1px solid #FFFFFF;">
 			<center><h1>決標公告</h1></center>
-			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:103/01/21</h3></div>	
+			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:104/04/08</h3></div>	
 			<div class="remind_msg"></div>			
 		</td>
 	</tr>	
@@ -730,7 +730,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關代碼</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			3.79.67.4
+			3.76.58.97.27
 		</td>
 		
 	</tr>
@@ -739,7 +739,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			臺北市動物保護處
+			新竹市北區舊社國民小學
 		</td>
 		
 	</tr>
@@ -747,7 +747,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">單位名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-            臺北市動物保護處
+            總務處
         </td>
 		
 	</tr>
@@ -765,7 +765,7 @@ function printBidder(pkItem){
 			                                     	
 	                         
 	                         
-	                         110臺北市信義區吳興街600巷109號
+	                         30003新竹市北區金竹里金竹路99號
 		</td>
 		
 	</tr>							
@@ -775,7 +775,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
 			
 			
-			李海瑞
+			溫儀詩
 	</td>
 		
 	</tr>
@@ -785,7 +785,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
             
             
-            (02)87897158&nbsp;分機&nbsp;7018
+            (03)5342023&nbsp;分機&nbsp;1050
         </td>
 		
 	</tr>
@@ -795,7 +795,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
                               
                               
-                              (02)87864233
+                              (03)5342062
                           </td>
 		
 	</tr>
@@ -803,26 +803,10 @@ function printBidder(pkItem){
 <!-- delimiter 機關資料 End -->
 <!-- delimiter 已公告/採購資料 Start -->
 	
-	
-		
-			
-			
-			
-				
-			
-			
-			
-				
-			
-			
-		
-		
 	 		
 	<tr class="award_table_tr_2">
 		
 		
-			
-		
 		
 			
 		
@@ -831,9 +815,9 @@ function printBidder(pkItem){
 		
 		
 		
-		
-		
 			
+		
+		
 		
 		
 		
@@ -892,8 +876,9 @@ function printBidder(pkItem){
 			
 		
 		
-			
 		
+			
+						
 		
 		
 		
@@ -903,7 +888,7 @@ function printBidder(pkItem){
 		
 		
 		<td align="center" valign="middle" bgcolor="#FCD847"
-			class="form_head" width="38" rowspan="28 ">
+			class="form_head" width="38" rowspan="27 ">
 			
 			<span class="newstop">已<br/>公<br/>告<br/>資<br/>料</span>
 			
@@ -933,7 +918,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">決標方式</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			最低標
+			參考最有利標精神
 			<div class="remind_msg">
 				
 			</div>
@@ -942,18 +927,6 @@ function printBidder(pkItem){
 		
 	</tr>
 	
-	                           
-	<tr class="award_table_tr_2">
-		<th width="200" align="left" valign="middle" bgcolor="#FFFF99" class="T11b">
-	    	是否依「機關異質採購<br>最低標作業須知」辦理
-		</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-			否
-			<div class="remind_msg">
-				
-			</div>			
-		</td>	    
-	</tr>
 	
 	
 	  
@@ -982,7 +955,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			103年度關渡自然公園舊貴子坑溪攔污設備操作及維護
+			103學年度第二學期一二三五年級校外教學參觀活動
 		</td>		
 	</tr>							
 	<tr class="award_table_tr_2">
@@ -1006,32 +979,27 @@ function printBidder(pkItem){
 				
 		</td>
 	</tr>
+	
+	<tr class="award_table_tr_2">
+		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
+			class="T11b">是否屬二以上機關之聯合採購(不適用共同供應契約規定)</th>
+		<td bgcolor="#EFF1F1" class="newstop">		
+			否
+			
+		</td>		
+	</tr>
 			
 	<tr class="award_table_tr_2">
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">是否複數決標</th>
 		<td bgcolor="#EFF1F1" class="newstop">
 			
-			
 				
 			
 			
-			否
 			
-		</td>
-		
-	</tr>
-	
-	<tr class="award_table_tr_2">
-		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
-                    class="T11b">是否共同投標</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-		
-		
+			是
 			
-		
-		
-		否		                            
 		</td>
 		
 	</tr>
@@ -1094,7 +1062,7 @@ function printBidder(pkItem){
         <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
             width="200">開標時間</th>
         <td bgcolor="#EFF1F1" class="newstop">
-        	102/12/30 11:00
+        	104/04/01 13:30
         </td>
 
     </tr>
@@ -1103,7 +1071,7 @@ function printBidder(pkItem){
         <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
             width="200">原公告日期</th>
         <td bgcolor="#EFF1F1" class="newstop">
-        	102/12/23
+        	104/03/26
         	
         	<span>　　<span class="remind_msg">原公告日期係指最近1次招標公告或更正日期</span></span>
         </td>
@@ -1172,7 +1140,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">預算金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			995,999元
+			488,564元
                         
 	                        
 	                        
@@ -1204,32 +1172,28 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">履約地點</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			 臺北市(非原住民地區)
+			 新竹市(非原住民地區)
 		</td>		
 	</tr>
 	<tr class="award_table_tr_2">
 	    <th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 	        class="T11b">履約地點（含地區）</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	    	臺北市－北投區
+	    	新竹市
 		</td>	    
 	</tr>
 		
 	
 	
+	
 		<tr class="award_table_tr_2">
 			<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
-				class="T11b">是否屬優先採購身心障礙福利機構產品或勞務</th>
+				class="T11b">是否於招標文件載明優先決標予身心障礙福利機構團體或庇護工場</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-			
-			
-				
-			
-			
-			否
+				否
 			</td>		
 		</tr>
-	
+					
 	
 	
 		
@@ -1260,9 +1224,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">本案採購契約是否採用主管機關訂定之範本</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			否
-			
-				<br/>不採用主管機關訂定之範本之理由：採用臺北市政府最新勞務契約範本(102年5月17日府工採字第10230180800號函訂頒)
+			是
 			
 		</td>		
 	</tr>
@@ -1300,7 +1262,7 @@ function printBidder(pkItem){
 	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 			class="T11b">投標廠商家數</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			1
+			3
 		</td>
 
 	</tr>
@@ -1331,7 +1293,7 @@ function printBidder(pkItem){
 					
 					
 					
-						27911733
+						24572008
 					
 					 
 				
@@ -1346,7 +1308,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			台新能源科技有限公司
+			金奇國際旅行社有限公司
 		</td>
 		
 	</tr>
@@ -1399,7 +1361,7 @@ function printBidder(pkItem){
 			
 											
 			
-			220新北市板橋區中正路377之1號5樓
+			330桃園市桃園區龍鳳一街27巷10號
 		</td>
 	
 	</tr>
@@ -1411,10 +1373,10 @@ function printBidder(pkItem){
 		
 		
 		
-		(02)
+		(03)
 			
 			
-				29699297
+				2755755
 		</td>
 		
 	</tr>
@@ -1423,7 +1385,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 			class="T11b">　決標金額</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
-		736,560元
+		336,860元
 		</td>
 		
 	</tr>
@@ -1461,7 +1423,8 @@ function printBidder(pkItem){
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
 			
 			
-			103/01/01－103/12/31
+			104/04/01－104/05/05
+				(預估)
 		</td>
 		
 	</tr>
@@ -1481,6 +1444,258 @@ function printBidder(pkItem){
 	<!-- isEmployeeOver100 -->							
 	<!-- isObtain -->
 	
+	<!-- isNotObtain end -->		
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">
+			
+			
+				
+				
+				
+					投標廠商2
+					
+				
+									
+		</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop"></td>
+		
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　廠商代碼</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+			
+				
+					
+					
+					
+						80069682
+					
+					 
+				
+				
+			
+		</td>
+		
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　廠商名稱</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+			
+			
+			益群旅行社有限公司
+		</td>
+		
+	</tr>
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　是否得標</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+          	
+          		                                	
+          	
+          	
+          	
+            是
+		</td>										
+	</tr>
+	
+	<tr>
+	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+	        class="T11b">　組織型態</th>
+	    <td height="7" bgcolor="#EFF1F1" class="newstop">
+	    	 公司登記
+	    	 
+	    </td>
+	    
+	</tr>
+	
+	<tr>
+	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+	        class="T11b">　廠商業別</th>
+	    <td height="7" bgcolor="#EFF1F1" class="newstop">
+	    	其他
+	    	
+	    </td>
+	    
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle"
+			bgcolor="#ffdd83" class="T11b">　廠商地址</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+			
+			
+						
+			
+			
+				
+				
+									
+				
+			
+											
+			
+			247新北市蘆洲區正義里長榮路201號2樓
+		</td>
+	
+	</tr>
+		                     
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　廠商電話</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+		
+		
+		
+		(02)
+			
+			
+				82853524
+		</td>
+		
+	</tr>
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　決標金額</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+		130,410元
+		</td>
+		
+	</tr>
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　得標廠商國別</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+			中華民國(Republic of China (Taiwan))
+		</td>
+		
+	</tr>
+	
+	
+	
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　是否為中小企業</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+			
+	                         		                                	
+	                         	
+	                         	
+	                         	
+	                             是
+		</td>								
+		
+	</tr>
+	
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　履約起迄日期</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+			
+			
+			104/04/01－104/04/30
+				(預估)
+		</td>
+		
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　雇用員工總人數是否<br>　超過100人</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+			
+	                         	
+	                         		                                	
+	                         	
+	                         	
+	                         否
+		</td>
+		
+	</tr>
+	<!-- isEmployeeOver100 -->							
+	<!-- isObtain -->
+	
+	<!-- isNotObtain end -->		
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">
+			
+			
+				
+				
+				
+					投標廠商3
+					
+				
+									
+		</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop"></td>
+		
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　廠商代碼</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+			
+				
+				
+					
+					
+					
+						16879089
+					
+					 											
+				
+			
+		</td>
+		
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　廠商名稱</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+			
+			
+			大自然旅行社有限公司
+		</td>
+		
+	</tr>
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　是否得標</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+          	
+          	
+          		                                	
+          	
+          	
+            否
+		</td>										
+	</tr>
+	
+	<tr>
+	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+	        class="T11b">　組織型態</th>
+	    <td height="7" bgcolor="#EFF1F1" class="newstop">
+	    	 公司登記
+	    	 
+	    </td>
+	    
+	</tr>
+	<!-- isObtain -->
+	
+	<!-- isNotObtain start -->
+		 
+		
 	<!-- isNotObtain end -->		
 	
 	</table>
@@ -1513,7 +1728,7 @@ function printBidder(pkItem){
 	       	<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
 				class="T11b">決標品項數</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				1
+				4
 			</td>
 			
 		</tr>
@@ -1530,9 +1745,17 @@ function printBidder(pkItem){
 			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
 				class="T11b">　品項名稱</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				103年度關渡自然公園舊貴子坑溪攔污設備操作及維護
+				103學年度第二學期二年級校外教學參觀活動
 			</td>
 			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　單位</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				式
+			</td>			
 		</tr>
 		
 		<tr>
@@ -1566,7 +1789,7 @@ function printBidder(pkItem){
 			<td bgcolor="#EFF1F1" class="newstop">
 				
 				
-				台新能源科技有限公司
+				金奇國際旅行社有限公司
 			</td>
 			
 		</tr>
@@ -1593,7 +1816,7 @@ function printBidder(pkItem){
 				
 			</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				736,560
+				133,380
 			元</td>			
 		</tr>	
 		
@@ -1606,10 +1829,14 @@ function printBidder(pkItem){
 				
 			</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-			785,000
+			133,380
 			元</td>
 			
 		</tr>
+		
+		
+		
+		
 		
 									
 		
@@ -1647,8 +1874,8 @@ function printBidder(pkItem){
 								    
 								    
 								
-									736,560元<br/>
-									柒<span style='color:red'>拾</span>參萬陸仟伍佰陸拾元
+									133,380元<br/>
+									壹<span style='color:red'>拾</span>參萬參仟參佰捌拾元
 								</td>
 							</tr>
 							
@@ -1661,6 +1888,995 @@ function printBidder(pkItem){
 			</td>
 			
 		</tr>
+		
+					
+		
+					
+		
+					
+		
+		
+				
+		
+ 			
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　未得標廠商1</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　未得標廠商</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+				大自然旅行社有限公司
+			</td>
+			
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　是否合格</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			
+				
+			
+			
+			
+			是
+			</td>
+			
+		</tr>
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　標價金額</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			133,380
+			元</td>
+			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+	                        資格、規格合於招標文件但非最有利標或最優勝廠商
+	                        
+	                        
+			</td>			
+		</tr>
+		
+		
+		
+		
+				
+		
+ 			
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　未得標廠商2</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　未得標廠商</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+				益群旅行社有限公司
+			</td>
+			
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　是否合格</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			
+				
+			
+			
+			
+			是
+			</td>
+			
+		</tr>
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　標價金額</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			124,830
+			元</td>
+			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+	                        資格、規格合於招標文件但非最有利標或最優勝廠商
+	                        
+	                        
+			</td>			
+		</tr>
+		
+		
+		
+		
+				
+		
+				
+		
+				
+		
+				
+		
+				
+		
+				
+		
+		
+		
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">第2品項</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+			
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　品項名稱</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				103學年度第二學期三年級校外教學參觀活動
+			</td>
+			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　單位</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				式
+			</td>			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　是否以單價及預估需<br>　求數量之乘積決定最<br>　低標</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+								
+	                         	
+	                         		                                	
+	                         	
+	                         	
+	                             否
+			</td>
+			
+		</tr>
+		
+		
+					
+		
+					
+		
+ 		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　得標廠商1</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　得標廠商</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+				益群旅行社有限公司
+			</td>
+			
+		</tr>
+		
+		
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　預估需求數量</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				1
+			</td>
+			
+		</tr>
+		
+		
+				
+		
+				
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　決標金額
+				
+			</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				130,410
+			元</td>			
+		</tr>	
+		
+		
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　底價金額
+				
+			</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			130,410
+			元</td>
+			
+		</tr>
+		
+		
+		
+		
+		
+									
+		
+		
+		
+				
+				
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　原產地國別</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				<table id="table_ob_nation" border="0" cellpadding="0" cellspacing="1" class="shift">
+					
+						
+							<tr>
+								<td class="newstop" width="100px">原產地國別</td>
+								<td class="newstop">
+								
+								    
+								    	
+								    
+								    
+								
+								中華民國(Republic of China (Taiwan))
+								</td>
+							</tr>
+							
+							<tr>
+								<td class="newstop" valign="top">原產地國別<br/>得標金額</td>
+								<td class="newstop">
+								
+								    
+								    	
+								    
+								    
+								
+									130,410元<br/>
+									壹<span style='color:red'>拾</span>參萬零肆佰壹拾元
+								</td>
+							</tr>
+							
+							<tr>
+								<td class='newstop' colspan='2'><hr></td>
+							</tr>
+						
+					
+				</table>
+			</td>
+			
+		</tr>
+		
+					
+		
+					
+		
+		
+				
+		
+				
+		
+				
+		
+ 			
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　未得標廠商1</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　未得標廠商</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+				大自然旅行社有限公司
+			</td>
+			
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　是否合格</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			
+				
+			
+			
+			
+			是
+			</td>
+			
+		</tr>
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　標價金額</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			146,475
+			元</td>
+			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+	                        資格、規格合於招標文件但非最有利標或最優勝廠商
+	                        
+	                        
+			</td>			
+		</tr>
+		
+		
+		
+		
+				
+		
+ 			
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　未得標廠商2</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　未得標廠商</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+				金奇國際旅行社有限公司
+			</td>
+			
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　是否合格</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			
+				
+			
+			
+			
+			是
+			</td>
+			
+		</tr>
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　標價金額</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			139,860
+			元</td>
+			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+	                        資格、規格合於招標文件但非最有利標或最優勝廠商
+	                        
+	                        
+			</td>			
+		</tr>
+		
+		
+		
+		
+				
+		
+				
+		
+				
+		
+				
+		
+		
+		
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">第3品項</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+			
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　品項名稱</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				103學年度第二學期五年級校外教學參觀活動
+			</td>
+			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　單位</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				式
+			</td>			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　是否以單價及預估需<br>　求數量之乘積決定最<br>　低標</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+								
+	                         	
+	                         		                                	
+	                         	
+	                         	
+	                             否
+			</td>
+			
+		</tr>
+		
+		
+					
+		
+					
+		
+					
+		
+ 		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　得標廠商1</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　得標廠商</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+				金奇國際旅行社有限公司
+			</td>
+			
+		</tr>
+		
+		
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　預估需求數量</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				1
+			</td>
+			
+		</tr>
+		
+		
+				
+		
+				
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　決標金額
+				
+			</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				90,620
+			元</td>			
+		</tr>	
+		
+		
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　底價金額
+				
+			</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			90,620
+			元</td>
+			
+		</tr>
+		
+		
+		
+		
+		
+									
+		
+		
+		
+				
+				
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　原產地國別</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				<table id="table_ob_nation" border="0" cellpadding="0" cellspacing="1" class="shift">
+					
+						
+							<tr>
+								<td class="newstop" width="100px">原產地國別</td>
+								<td class="newstop">
+								
+								    
+								    	
+								    
+								    
+								
+								中華民國(Republic of China (Taiwan))
+								</td>
+							</tr>
+							
+							<tr>
+								<td class="newstop" valign="top">原產地國別<br/>得標金額</td>
+								<td class="newstop">
+								
+								    
+								    	
+								    
+								    
+								
+									90,620元<br/>
+									玖<span style='color:red'>萬</span>零陸佰貳拾元
+								</td>
+							</tr>
+							
+							<tr>
+								<td class='newstop' colspan='2'><hr></td>
+							</tr>
+						
+					
+				</table>
+			</td>
+			
+		</tr>
+		
+					
+		
+		
+				
+		
+				
+		
+				
+		
+				
+		
+				
+		
+ 			
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　未得標廠商1</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　未得標廠商</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+				大自然旅行社有限公司
+			</td>
+			
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　是否合格</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			
+				
+			
+			
+			
+			是
+			</td>
+			
+		</tr>
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　標價金額</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			104,410
+			元</td>
+			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+	                        資格、規格合於招標文件但非最有利標或最優勝廠商
+	                        
+	                        
+			</td>			
+		</tr>
+		
+		
+		
+		
+				
+		
+ 			
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　未得標廠商2</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　未得標廠商</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+				益群旅行社有限公司
+			</td>
+			
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　是否合格</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			
+				
+			
+			
+			
+			是
+			</td>
+			
+		</tr>
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　標價金額</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			94,560
+			元</td>
+			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+	                        資格、規格合於招標文件但非最有利標或最優勝廠商
+	                        
+	                        
+			</td>			
+		</tr>
+		
+		
+		
+		
+				
+		
+				
+		
+		
+		
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">第4品項</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+			
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　品項名稱</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				103學年度第二學期一年級校外教學參觀活動
+			</td>
+			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　單位</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				式
+			</td>			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　是否以單價及預估需<br>　求數量之乘積決定最<br>　低標</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+								
+	                         	
+	                         		                                	
+	                         	
+	                         	
+	                             否
+			</td>
+			
+		</tr>
+		
+		
+					
+		
+					
+		
+					
+		
+					
+		
+ 		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　得標廠商1</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　得標廠商</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+				金奇國際旅行社有限公司
+			</td>
+			
+		</tr>
+		
+		
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　預估需求數量</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				1
+			</td>
+			
+		</tr>
+		
+		
+				
+		
+				
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　決標金額
+				
+			</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				112,860
+			元</td>			
+		</tr>	
+		
+		
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　底價金額
+				
+			</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			112,860
+			元</td>
+			
+		</tr>
+		
+		
+		
+		
+		
+									
+		
+		
+		
+				
+				
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　原產地國別</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				<table id="table_ob_nation" border="0" cellpadding="0" cellspacing="1" class="shift">
+					
+						
+							<tr>
+								<td class="newstop" width="100px">原產地國別</td>
+								<td class="newstop">
+								
+								    
+								    	
+								    
+								    
+								
+								中華民國(Republic of China (Taiwan))
+								</td>
+							</tr>
+							
+							<tr>
+								<td class="newstop" valign="top">原產地國別<br/>得標金額</td>
+								<td class="newstop">
+								
+								    
+								    	
+								    
+								    
+								
+									112,860元<br/>
+									壹<span style='color:red'>拾</span>壹萬貳仟捌佰陸拾元
+								</td>
+							</tr>
+							
+							<tr>
+								<td class='newstop' colspan='2'><hr></td>
+							</tr>
+						
+					
+				</table>
+			</td>
+			
+		</tr>
+		
+		
+				
+		
+				
+		
+				
+		
+				
+		
+				
+		
+				
+		
+				
+		
+ 			
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　未得標廠商1</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　未得標廠商</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+				大自然旅行社有限公司
+			</td>
+			
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　是否合格</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			
+				
+			
+			
+			
+			是
+			</td>
+			
+		</tr>
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　標價金額</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			107,730
+			元</td>
+			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+	                        資格、規格合於招標文件但非最有利標或最優勝廠商
+	                        
+	                        
+			</td>			
+		</tr>
+		
+		
+		
+		
+				
+		
+ 			
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　未得標廠商2</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　未得標廠商</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+				益群旅行社有限公司
+			</td>
+			
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　是否合格</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			
+				
+			
+			
+			
+			是
+			</td>
+			
+		</tr>
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　標價金額</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			106,020
+			元</td>
+			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+	                        資格、規格合於招標文件但非最有利標或最優勝廠商
+	                        
+	                        
+			</td>			
+		</tr>
+		
+		
 		
 		
 		
@@ -1683,6 +2899,8 @@ function printBidder(pkItem){
 		
 		
 		
+		
+			
 		
 				
 		
@@ -1718,7 +2936,7 @@ function printBidder(pkItem){
 		
 		
 		<td align="center" valign="middle" bgcolor="#c79961"
-			class="form_head" width="38" rowspan="13">
+			class="form_head" width="38" rowspan="14">
 			<span class="newstop">決<br/>標<br/>資<br/>料</span>
 		</td>
 		
@@ -1734,7 +2952,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">決標日期</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			102/12/31
+			104/04/01
 			
 		</td>
 		
@@ -1743,9 +2961,18 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 	    <th bgcolor="#ddc09e" class="T11b" width="200">決標公告日期</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	        103/01/21
+	        104/04/08
 	    </td>
 	    
+	</tr>
+	
+	<tr class="award_table_tr_6">
+		<th bgcolor="#ddc09e" class="T11b" width="200">執行現況</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+		複數決標案，部分決標
+		
+ 		</td>
+		
 	</tr>
 	
 	
@@ -1766,7 +2993,7 @@ function printBidder(pkItem){
 		<tr class="award_table_tr_6">
 			<th bgcolor="#ddc09e" class="T11b" width="200">底價金額</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				785,000元
+				467,270元
 			</td>			
 		</tr>		
 		
@@ -1785,7 +3012,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">總決標金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-		    736,560元
+		    467,270元
 		    
 				
 		</td>
@@ -1839,7 +3066,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			機關代碼：3.79.67.4<BR>機關名稱：臺北市動物保護處			
+			機關代碼：3.76.58.97.27<BR>機關名稱：新竹市北區舊社國民小學			
 		</td>
 		
 	</tr>
@@ -1983,7 +3210,7 @@ function printBidder(pkItem){
       <span class="cbottom">歡迎本區第 </span>
       <span class="cright02"><strong class="counterValue"></strong></span>
       <span class="cbottom"> 位訪客(至098/12/31累計76003935人次)　台灣時間為 </span>
-      <noscript><strong class="cright02"> 19點10分</strong></noscript>
+      <noscript><strong class="cright02"> 12點59分</strong></noscript>
       <span class="cright02"><strong class="now_time"></strong></span>
 	  	<span class="cbottom">
 	  		<br>

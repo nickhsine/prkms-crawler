@@ -10,7 +10,7 @@ var printTitle = "決標公告";
 var pView = "true";
 var test01 = "";
 function print_text_new(){
-	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51436621&print_type=printText&tenderCaseNo=103112501&pkAtmMain4Success=51436621','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51463154&print_type=printText&tenderCaseNo=103112501&pkAtmMain4Success=51463154','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 }
 
 
@@ -697,7 +697,7 @@ function popWatermark2(){
 function printBidder(pkItem){
 		//alert(pkItem);
 		
-		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51436621&pkAtmAwardItem='+pkItem+'&tenderCaseNo=103112501','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51463154&pkAtmAwardItem='+pkItem+'&tenderCaseNo=103112501','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 		
 }
 </script>
@@ -707,13 +707,13 @@ function printBidder(pkItem){
 	
 	<caption style="display:none">
 		<center><FONT SIZE="5">決標公告</FONT></center>		
-		<div id="printAwardDate" align="center" style="display:block">公告日:103/12/15</div>			
+		<div id="printAwardDate" align="center" style="display:block">公告日:104/01/07</div>			
 	</caption>
 	<tbody>
 	<tr>
 		<td align="center" colspan="4" style="border:1px solid #FFFFFF;">
 			<center><h1>決標公告</h1></center>
-			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:103/12/15</h3></div>	
+			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:104/01/07</h3></div>	
 			<div class="remind_msg"></div>			
 		</td>
 	</tr>	
@@ -730,7 +730,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關代碼</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			3.76.47.59
+			3.82.61
 		</td>
 		
 	</tr>
@@ -739,7 +739,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			彰化縣線西鄉公所
+			新北市五股區公所
 		</td>
 		
 	</tr>
@@ -747,7 +747,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">單位名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-            秘書室
+            新北市五股區公所
         </td>
 		
 	</tr>
@@ -765,7 +765,7 @@ function printBidder(pkItem){
 			                                     	
 	                         
 	                         
-	                         507彰化縣線西鄉寓埔村和線路983號
+	                         248新北市五股區中興路四段五十號
 		</td>
 		
 	</tr>							
@@ -775,7 +775,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
 			
 			
-			秘書室-林玫嬌;民政課-陳翠萍
+			秘書室-吳小姐
 	</td>
 		
 	</tr>
@@ -785,7 +785,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
             
             
-            (04)7584012&nbsp;分機&nbsp;203
+            (02)22916051&nbsp;分機&nbsp;316
         </td>
 		
 	</tr>
@@ -795,7 +795,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
                               
                               
-                              (04)7588469
+                              (02)22910424
                           </td>
 		
 	</tr>
@@ -803,25 +803,9 @@ function printBidder(pkItem){
 <!-- delimiter 機關資料 End -->
 <!-- delimiter 已公告/採購資料 Start -->
 	
-	
-		
-		
-			
-			
-			
-				
-			
-			
-			
-				
-			
-			
-		
 	 		
 	<tr class="award_table_tr_2">
 		
-		
-			
 		
 		
 			
@@ -905,7 +889,7 @@ function printBidder(pkItem){
 		
 		
 		<td align="center" valign="middle" bgcolor="#FCD847"
-			class="form_head" width="38" rowspan="29 ">
+			class="form_head" width="38" rowspan="28 ">
 			
 			<span class="newstop">已<br/>公<br/>告<br/>資<br/>料</span>
 			
@@ -935,7 +919,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">決標方式</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			最低標
+			參考最有利標精神
 			<div class="remind_msg">
 				
 			</div>
@@ -944,18 +928,6 @@ function printBidder(pkItem){
 		
 	</tr>
 	
-	                           
-	<tr class="award_table_tr_2">
-		<th width="200" align="left" valign="middle" bgcolor="#FFFF99" class="T11b">
-	    	是否依政府採購法施行<br>細則第64條之2辦理
-		</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-			否
-			<div class="remind_msg">
-				
-			</div>			
-		</td>	    
-	</tr>
 	
 	
 	  
@@ -984,7 +956,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			線西鄉第一、二、五公墓暨納骨堂環境清理與植物維護養護工作勞務採購
+			五股區公所行政大樓環境清潔維護案
 		</td>		
 	</tr>							
 	<tr class="award_table_tr_2">
@@ -1105,7 +1077,7 @@ function printBidder(pkItem){
         <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
             width="200">開標時間</th>
         <td bgcolor="#EFF1F1" class="newstop">
-        	103/12/12 10:00
+        	103/12/19 14:20
         </td>
 
     </tr>
@@ -1114,7 +1086,7 @@ function printBidder(pkItem){
         <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
             width="200">原公告日期</th>
         <td bgcolor="#EFF1F1" class="newstop">
-        	103/12/04
+        	103/12/11
         	
         	<span>　　<span class="remind_msg">原公告日期係指最近1次招標公告或更正日期</span></span>
         </td>
@@ -1183,7 +1155,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">預算金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			360,000元
+			460,000元
                         
 	                        
 	                        
@@ -1215,14 +1187,14 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">履約地點</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			 彰化縣(非原住民地區)
+			 新北市(非原住民地區)
 		</td>		
 	</tr>
 	<tr class="award_table_tr_2">
 	    <th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 	        class="T11b">履約地點（含地區）</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	    	彰化縣－線西
+	    	新北市－五股區
 		</td>	    
 	</tr>
 		
@@ -1336,6 +1308,16 @@ function printBidder(pkItem){
 			class="T11b">　廠商代碼</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
 			
+				
+					
+					
+					
+						09861438
+					
+					 
+				
+				
+			
 		</td>
 		
 	</tr>
@@ -1345,7 +1327,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			陳呈宗
+			芝潔企業社
 		</td>
 		
 	</tr>
@@ -1367,7 +1349,7 @@ function printBidder(pkItem){
 	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 	        class="T11b">　組織型態</th>
 	    <td height="7" bgcolor="#EFF1F1" class="newstop">
-	    	 自然人
+	    	 商業登記
 	    	 
 	    </td>
 	    
@@ -1393,10 +1375,12 @@ function printBidder(pkItem){
 			
 				
 				
+									
+				
 			
 											
 			
-			507彰化縣線西鄉
+			973花蓮縣吉安鄉永興村全民街７９號１樓
 		</td>
 	
 	</tr>
@@ -1408,11 +1392,10 @@ function printBidder(pkItem){
 		
 		
 		
-		(0910)
+		(02)
 			
 			
-			
-				48****
+				26256909
 		</td>
 		
 	</tr>
@@ -1421,7 +1404,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 			class="T11b">　決標金額</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
-		320,000元
+		460,000元
 		</td>
 		
 	</tr>
@@ -1528,7 +1511,7 @@ function printBidder(pkItem){
 			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
 				class="T11b">　品項名稱</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				線西鄉第一、二、五公墓暨納骨堂環境清理與植物維護養護工作勞務採購
+				五股區公所行政大樓環境清潔維護案
 			</td>
 			
 		</tr>
@@ -1564,7 +1547,7 @@ function printBidder(pkItem){
 			<td bgcolor="#EFF1F1" class="newstop">
 				
 				
-				陳呈宗
+				芝潔企業社
 			</td>
 			
 		</tr>
@@ -1591,7 +1574,7 @@ function printBidder(pkItem){
 				
 			</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				320,000
+				460,000
 			元</td>			
 		</tr>	
 		
@@ -1604,10 +1587,14 @@ function printBidder(pkItem){
 				
 			</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-			350,000
+			460,000
 			元</td>
 			
 		</tr>
+		
+		
+		
+		
 		
 									
 		
@@ -1645,8 +1632,8 @@ function printBidder(pkItem){
 								    
 								    
 								
-									320,000元<br/>
-									參<span style='color:red'>拾</span>貳萬元
+									460,000元<br/>
+									肆<span style='color:red'>拾</span>陸萬元
 								</td>
 							</tr>
 							
@@ -1732,7 +1719,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">決標日期</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			103/12/12
+			103/12/30
 			
 		</td>
 		
@@ -1741,7 +1728,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 	    <th bgcolor="#ddc09e" class="T11b" width="200">決標公告日期</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	        103/12/15
+	        104/01/07
 	    </td>
 	    
 	</tr>
@@ -1764,7 +1751,7 @@ function printBidder(pkItem){
 		<tr class="award_table_tr_6">
 			<th bgcolor="#ddc09e" class="T11b" width="200">底價金額</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				350,000元
+				460,000元
 			</td>			
 		</tr>		
 		
@@ -1783,7 +1770,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">總決標金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-		    320,000元
+		    460,000元
 		    
 				
 		</td>
@@ -1837,7 +1824,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			機關代碼：3.76.47.59<BR>機關名稱：彰化縣線西鄉公所			
+			機關代碼：3.82.61<BR>機關名稱：新北市五股區公所			
 		</td>
 		
 	</tr>
@@ -1876,32 +1863,32 @@ function printBidder(pkItem){
     </tr>
     
     <tr>
-        <td class="T12">線西鄉第一、二、五公墓暨納骨堂環境清理與植物維護養護工作勞務採購</td>
+        <td class="T12">五股區公所行政大樓環境清潔維護案</td>
         <td class="T12" align="center">01</td>
         <td class="T12" align="center">001</td>
         <td class="T12" align="center"></td>
-        <td class="T12" align="center">103/12/05</td>
+        <td class="T12" align="center">103/12/11</td>
         <td align="center">
 			
 				
 				
-		            <img border="0" src="/tps/images/icon04.jpg" onclick="location.href='/tps/main/pms/tps/atm/atmHistoryAction.do?method=review&searchMode=common&pkPmsMainHist=59348652&awardNoticeDateOrgn=103/12/15'" />				
+		            <img border="0" src="/tps/images/icon04.jpg" onclick="location.href='/tps/main/pms/tps/atm/atmHistoryAction.do?method=review&searchMode=common&pkPmsMainHist=59395926&awardNoticeDateOrgn=104/01/07'" />				
 				
 			
         </td>
     </tr>
     
     <tr>
-        <td class="T12">線西鄉第一、二、五公墓暨納骨堂環境清理與植物維護養護工作勞務採購</td>
+        <td class="T12">五股區公所行政大樓環境清潔維護案</td>
         <td class="T12" align="center">02</td>
         <td class="T12" align="center">001</td>
         <td class="T12" align="center"></td>
-        <td class="T12" align="center">103/12/15</td>
+        <td class="T12" align="center">104/01/07</td>
         <td align="center">
 			
 				
 				
-		            <img border="0" src="/tps/images/icon04.jpg" onclick="location.href='/tps/main/pms/tps/atm/atmHistoryAction.do?method=review&searchMode=common&pkPmsMainHist=59406952&awardNoticeDateOrgn=103/12/15'" />				
+		            <img border="0" src="/tps/images/icon04.jpg" onclick="location.href='/tps/main/pms/tps/atm/atmHistoryAction.do?method=review&searchMode=common&pkPmsMainHist=59535009&awardNoticeDateOrgn=104/01/07'" />				
 				
 			
         </td>
@@ -2029,7 +2016,7 @@ function printBidder(pkItem){
       <span class="cbottom">歡迎本區第 </span>
       <span class="cright02"><strong class="counterValue"></strong></span>
       <span class="cbottom"> 位訪客(至098/12/31累計76003935人次)　台灣時間為 </span>
-      <noscript><strong class="cright02"> 20點24分</strong></noscript>
+      <noscript><strong class="cright02"> 14點30分</strong></noscript>
       <span class="cright02"><strong class="now_time"></strong></span>
 	  	<span class="cbottom">
 	  		<br>

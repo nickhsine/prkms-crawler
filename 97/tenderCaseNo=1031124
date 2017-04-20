@@ -10,7 +10,7 @@ var printTitle = "決標公告";
 var pView = "true";
 var test01 = "";
 function print_text_new(){
-	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51448474&print_type=printText&tenderCaseNo=1031124&pkAtmMain4Success=51448474','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51466484&print_type=printText&tenderCaseNo=1031124&pkAtmMain4Success=51466484','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 }
 
 
@@ -697,7 +697,7 @@ function popWatermark2(){
 function printBidder(pkItem){
 		//alert(pkItem);
 		
-		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51448474&pkAtmAwardItem='+pkItem+'&tenderCaseNo=1031124','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51466484&pkAtmAwardItem='+pkItem+'&tenderCaseNo=1031124','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 		
 }
 </script>
@@ -707,13 +707,13 @@ function printBidder(pkItem){
 	
 	<caption style="display:none">
 		<center><FONT SIZE="5">決標公告</FONT></center>		
-		<div id="printAwardDate" align="center" style="display:block">公告日:103/12/24</div>			
+		<div id="printAwardDate" align="center" style="display:block">公告日:104/01/09</div>			
 	</caption>
 	<tbody>
 	<tr>
 		<td align="center" colspan="4" style="border:1px solid #FFFFFF;">
 			<center><h1>決標公告</h1></center>
-			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:103/12/24</h3></div>	
+			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:104/01/09</h3></div>	
 			<div class="remind_msg"></div>			
 		</td>
 	</tr>	
@@ -730,7 +730,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關代碼</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			3.15.25.47
+			A.51.100.38
 		</td>
 		
 	</tr>
@@ -739,7 +739,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			交通部公路總局公路人員訓練所
+			國軍退除役官兵輔導委員會八德榮譽國民之家
 		</td>
 		
 	</tr>
@@ -747,7 +747,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">單位名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-            南部訓練中心
+            國軍退除役官兵輔導委員會八德榮譽國民之家
         </td>
 		
 	</tr>
@@ -765,7 +765,7 @@ function printBidder(pkItem){
 			                                     	
 	                         
 	                         
-	                         825高雄市橋頭區里林東路公路巷120號
+	                         334桃園市八德區榮興路1100號
 		</td>
 		
 	</tr>							
@@ -775,7 +775,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
 			
 			
-			李淑娟
+			徐文英
 	</td>
 		
 	</tr>
@@ -785,7 +785,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
             
             
-            (07)6117101&nbsp;分機&nbsp;802
+            (03)3651285&nbsp;分機&nbsp;220
         </td>
 		
 	</tr>
@@ -795,7 +795,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
                               
                               
-                              (07)6117106
+                              (03)3659251
                           </td>
 		
 	</tr>
@@ -957,7 +957,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_2">
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99" class="T11b">新增公告傳輸次數</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			01								
+			02								
 		</td>
 		
 	</tr>
@@ -979,7 +979,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			104年度南部訓練中心環境清潔工作
+			104年度庭園美化及環境清潔勞務委外工作
 		</td>		
 	</tr>							
 	<tr class="award_table_tr_2">
@@ -1100,7 +1100,7 @@ function printBidder(pkItem){
         <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
             width="200">開標時間</th>
         <td bgcolor="#EFF1F1" class="newstop">
-        	103/12/16 10:00
+        	103/12/17 10:00
         </td>
 
     </tr>
@@ -1109,7 +1109,7 @@ function printBidder(pkItem){
         <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
             width="200">原公告日期</th>
         <td bgcolor="#EFF1F1" class="newstop">
-        	103/12/02
+        	103/12/12
         	
         	<span>　　<span class="remind_msg">原公告日期係指最近1次招標公告或更正日期</span></span>
         </td>
@@ -1240,7 +1240,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">預算金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			1,029,636元
+			1,272,000元
                         
 	                        
 	                        
@@ -1272,14 +1272,14 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">履約地點</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			 高雄市(非原住民地區)
+			 桃園市(非原住民地區)
 		</td>		
 	</tr>
 	<tr class="award_table_tr_2">
 	    <th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 	        class="T11b">履約地點（含地區）</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	    	高雄市－橋頭區
+	    	桃園市－八德區
 		</td>	    
 	</tr>
 				
@@ -1347,7 +1347,7 @@ function printBidder(pkItem){
 	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 			class="T11b">投標廠商家數</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			6
+			4
 		</td>
 
 	</tr>
@@ -1378,7 +1378,7 @@ function printBidder(pkItem){
 					
 					
 					
-						09027368
+						30392405
 					
 					 
 				
@@ -1393,7 +1393,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			07社團法人高雄市關懷身心障礙者就業協進會
+			有限責任基隆市原住民綠化景觀勞動合作社
 		</td>
 		
 	</tr>
@@ -1415,7 +1415,7 @@ function printBidder(pkItem){
 	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 	        class="T11b">　組織型態</th>
 	    <td height="7" bgcolor="#EFF1F1" class="newstop">
-	    	 其他
+	    	 合作社
 	    	 
 	    </td>
 	    
@@ -1446,7 +1446,7 @@ function printBidder(pkItem){
 			
 											
 			
-			804高雄市鼓山區華安街115號
+			205基隆市暖暖區碇內街236號6樓
 		</td>
 	
 	</tr>
@@ -1458,10 +1458,10 @@ function printBidder(pkItem){
 		
 		
 		
-		(07)
+		(02)
 			
 			
-				5313770
+				24222183
 		</td>
 		
 	</tr>
@@ -1470,7 +1470,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 			class="T11b">　決標金額</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
-		866,000元
+		1,208,076元
 		</td>
 		
 	</tr>
@@ -1492,11 +1492,11 @@ function printBidder(pkItem){
 			class="T11b">　是否為中小企業</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
 			
+	                         	
 	                         		                                	
 	                         	
 	                         	
-	                         	
-	                             是
+	                             否，預估分包予中小企業之金額 0 元
 		</td>								
 		
 	</tr>
@@ -1556,7 +1556,7 @@ function printBidder(pkItem){
 					
 					
 					
-						29004595
+						41039161
 					
 					 											
 				
@@ -1570,7 +1570,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			元誠清潔有限公司
+			德恩企業社
 		</td>
 		
 	</tr>
@@ -1592,7 +1592,7 @@ function printBidder(pkItem){
 	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 	        class="T11b">　組織型態</th>
 	    <td height="7" bgcolor="#EFF1F1" class="newstop">
-	    	 公司登記
+	    	 其他
 	    	 
 	    </td>
 	    
@@ -1630,7 +1630,7 @@ function printBidder(pkItem){
 					
 					
 					
-						39846391
+						98230441
 					
 					 											
 				
@@ -1644,7 +1644,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			祥新企業社
+			社團法人桃園縣智障者家長協會
 		</td>
 		
 	</tr>
@@ -1666,7 +1666,7 @@ function printBidder(pkItem){
 	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 	        class="T11b">　組織型態</th>
 	    <td height="7" bgcolor="#EFF1F1" class="newstop">
-	    	 商業登記
+	    	 其他
 	    	 
 	    </td>
 	    
@@ -1704,7 +1704,7 @@ function printBidder(pkItem){
 					
 					
 					
-						28288715
+						28397191
 					
 					 											
 				
@@ -1718,155 +1718,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			亞田環境清潔有限公司
-		</td>
-		
-	</tr>
-	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　是否得標</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-          	
-          	
-          		                                	
-          	
-          	
-            否
-		</td>										
-	</tr>
-	
-	<tr>
-	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-	        class="T11b">　組織型態</th>
-	    <td height="7" bgcolor="#EFF1F1" class="newstop">
-	    	 公司登記
-	    	 
-	    </td>
-	    
-	</tr>
-	<!-- isObtain -->
-	
-	<!-- isNotObtain start -->
-		 
-		
-	<!-- isNotObtain end -->		
-	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">
-			
-			
-				
-				
-				
-					投標廠商5
-					
-				
-									
-		</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop"></td>
-		
-	</tr>
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　廠商代碼</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			
-				
-				
-					
-					
-					
-						25985343
-					
-					 											
-				
-			
-		</td>
-		
-	</tr>
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　廠商名稱</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-			
-			
-			承億工務社
-		</td>
-		
-	</tr>
-	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　是否得標</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-          	
-          	
-          		                                	
-          	
-          	
-            否
-		</td>										
-	</tr>
-	
-	<tr>
-	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-	        class="T11b">　組織型態</th>
-	    <td height="7" bgcolor="#EFF1F1" class="newstop">
-	    	 商業登記
-	    	 
-	    </td>
-	    
-	</tr>
-	<!-- isObtain -->
-	
-	<!-- isNotObtain start -->
-		 
-		
-	<!-- isNotObtain end -->		
-	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">
-			
-			
-				
-				
-				
-					投標廠商6
-					
-				
-									
-		</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop"></td>
-		
-	</tr>
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　廠商代碼</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			
-				
-				
-					
-					
-					
-						23664514
-					
-					 											
-				
-			
-		</td>
-		
-	</tr>
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　廠商名稱</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-			
-			
-			盈業清潔有限公司
+			金典清潔有限公司
 		</td>
 		
 	</tr>
@@ -1947,7 +1799,7 @@ function printBidder(pkItem){
 			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
 				class="T11b">　品項名稱</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				104年度南部訓練中心環境清潔工作
+				104年度庭園美化及環境清潔勞務委外工作
 			</td>
 			
 		</tr>
@@ -1983,7 +1835,7 @@ function printBidder(pkItem){
 			<td bgcolor="#EFF1F1" class="newstop">
 				
 				
-				07社團法人高雄市關懷身心障礙者就業協進會
+				有限責任基隆市原住民綠化景觀勞動合作社
 			</td>
 			
 		</tr>
@@ -2010,7 +1862,7 @@ function printBidder(pkItem){
 				
 			</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				866,000
+				1,208,076
 			元</td>			
 		</tr>	
 		
@@ -2023,7 +1875,7 @@ function printBidder(pkItem){
 				
 			</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-			1,028,000
+			1,272,000
 			元</td>
 			
 		</tr>
@@ -2064,8 +1916,8 @@ function printBidder(pkItem){
 								    
 								    
 								
-									866,000元<br/>
-									捌<span style='color:red'>拾</span>陸萬陸仟元
+									1,208,076元<br/>
+									壹<span style='color:red'>佰</span>貳拾萬零捌仟零柒拾陸元
 								</td>
 							</tr>
 							
@@ -2095,7 +1947,7 @@ function printBidder(pkItem){
 			<td bgcolor="#EFF1F1" class="newstop">
 				
 				
-				元誠清潔有限公司
+				德恩企業社
 			</td>
 			
 		</tr>
@@ -2118,7 +1970,7 @@ function printBidder(pkItem){
 			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
 				class="T11b">　　標價金額</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-			945,000
+			1,245,768
 			元</td>
 			
 		</tr>
@@ -2158,7 +2010,7 @@ function printBidder(pkItem){
 			<td bgcolor="#EFF1F1" class="newstop">
 				
 				
-				祥新企業社
+				社團法人桃園縣智障者家長協會
 			</td>
 			
 		</tr>
@@ -2167,11 +2019,11 @@ function printBidder(pkItem){
 				class="T11b">　　是否合格</th>
 			<td bgcolor="#EFF1F1" class="newstop">
 			
+			
 				
 			
 			
-			
-			是
+			否
 			</td>
 			
 		</tr>
@@ -2181,7 +2033,7 @@ function printBidder(pkItem){
 			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
 				class="T11b">　　標價金額</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-			1,015,998
+			1,199,880
 			元</td>
 			
 		</tr>
@@ -2189,7 +2041,7 @@ function printBidder(pkItem){
 		<tr>
 			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-	                        資格、規格合於招標文件但非最低(高)標
+	                        資格文件未附或不符合規定
 	                        
 	                        
 			</td>			
@@ -2221,7 +2073,7 @@ function printBidder(pkItem){
 			<td bgcolor="#EFF1F1" class="newstop">
 				
 				
-				亞田環境清潔有限公司
+				金典清潔有限公司
 			</td>
 			
 		</tr>
@@ -2244,133 +2096,7 @@ function printBidder(pkItem){
 			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
 				class="T11b">　　標價金額</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-			962,415
-			元</td>
-			
-		</tr>
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-	                        資格、規格合於招標文件但非最低(高)標
-	                        
-	                        
-			</td>			
-		</tr>
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　標價偏低理由</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-				
-				
-			</td>			
-		</tr>
-		
-		
-		
-		
-				
-		
- 			
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　未得標廠商4</th>
-			<td bgcolor="#EFF1F1" class="newstop"></td>
-
-		</tr>
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　未得標廠商</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-				
-				
-				承億工務社
-			</td>
-			
-		</tr>
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　是否合格</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-			
-				
-			
-			
-			
-			是
-			</td>
-			
-		</tr>
-		
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　標價金額</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-			1,003,823
-			元</td>
-			
-		</tr>
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-	                        資格、規格合於招標文件但非最低(高)標
-	                        
-	                        
-			</td>			
-		</tr>
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　標價偏低理由</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-				
-				
-			</td>			
-		</tr>
-		
-		
-		
-		
-				
-		
- 			
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　未得標廠商5</th>
-			<td bgcolor="#EFF1F1" class="newstop"></td>
-
-		</tr>
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　未得標廠商</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-				
-				
-				盈業清潔有限公司
-			</td>
-			
-		</tr>
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　是否合格</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-			
-				
-			
-			
-			
-			是
-			</td>
-			
-		</tr>
-		
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　標價金額</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-			963,845
+			1,253,000
 			元</td>
 			
 		</tr>
@@ -2466,7 +2192,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">決標日期</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			103/12/16
+			103/12/22
 			
 		</td>
 		
@@ -2475,7 +2201,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 	    <th bgcolor="#ddc09e" class="T11b" width="200">決標公告日期</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	        103/12/24
+	        104/01/09
 	    </td>
 	    
 	</tr>
@@ -2498,7 +2224,7 @@ function printBidder(pkItem){
 		<tr class="award_table_tr_6">
 			<th bgcolor="#ddc09e" class="T11b" width="200">底價金額</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				1,028,000元
+				1,272,000元
 			</td>			
 		</tr>		
 		
@@ -2517,7 +2243,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">總決標金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-		    866,000元
+		    1,208,076元
 		    
 				
 		</td>
@@ -2560,7 +2286,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">未列物價調整規定說明</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			無預算
+			勞務案
 			
         </td>		
 	</tr>
@@ -2571,7 +2297,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			機關代碼：3.15.25.47<BR>機關名稱：交通部公路總局公路人員訓練所			
+			機關代碼：A.51.100.38<BR>機關名稱：國軍退除役官兵輔導委員會八德榮譽國民之家			
 		</td>
 		
 	</tr>
@@ -2595,6 +2321,54 @@ function printBidder(pkItem){
 </table>
               </div>
               
+
+
+<br>
+<div class="T12b">作業歷程</div>
+<table width="100%" style="border-collapse: collapse; border-color: #98badc; border-style: solid; border-width: 1px" cellspacing="0" cellpadding="0">
+    <tr bgcolor="#e0edf1">
+        <td class="T12b" align="center" width="45%">標案名稱</td>
+        <td class="T12b" align="center" width="12%">招標<br>傳輸次數</td>
+        <td class="T12b" align="center" width="10%">決標<br>序號</td>
+        <td class="T12b" align="center" width="12%">決標<br>更正序號</td>
+        <td class="T12b" align="center" width="15%">決標<br>公告日期</td>
+        <td class="T12b" align="center" width="6%">檢<br>視</td>
+    </tr>
+    
+    <tr>
+        <td class="T12">104年度庭園美化及環境清潔勞務委外工作</td>
+        <td class="T12" align="center">01</td>
+        <td class="T12" align="center">001</td>
+        <td class="T12" align="center"></td>
+        <td class="T12" align="center">103/12/12</td>
+        <td align="center">
+			
+				
+				
+		            <img border="0" src="/tps/images/icon04.jpg" onclick="location.href='/tps/main/pms/tps/atm/atmHistoryAction.do?method=review&searchMode=common&pkPmsMainHist=59393102&awardNoticeDateOrgn=104/01/09'" />				
+				
+			
+        </td>
+    </tr>
+    
+    <tr>
+        <td class="T12">104年度庭園美化及環境清潔勞務委外工作</td>
+        <td class="T12" align="center">02</td>
+        <td class="T12" align="center">001</td>
+        <td class="T12" align="center"></td>
+        <td class="T12" align="center">104/01/09</td>
+        <td align="center">
+			
+				
+				
+		            <img border="0" src="/tps/images/icon04.jpg" onclick="location.href='/tps/main/pms/tps/atm/atmHistoryAction.do?method=review&searchMode=common&pkPmsMainHist=59550283&awardNoticeDateOrgn=104/01/09'" />				
+				
+			
+        </td>
+    </tr>
+    
+</table>
+
               </td>
 			</tr>
 			<tr>
@@ -2715,7 +2489,7 @@ function printBidder(pkItem){
       <span class="cbottom">歡迎本區第 </span>
       <span class="cright02"><strong class="counterValue"></strong></span>
       <span class="cbottom"> 位訪客(至098/12/31累計76003935人次)　台灣時間為 </span>
-      <noscript><strong class="cright02"> 20點28分</strong></noscript>
+      <noscript><strong class="cright02"> 14點29分</strong></noscript>
       <span class="cright02"><strong class="now_time"></strong></span>
 	  	<span class="cbottom">
 	  		<br>

@@ -10,7 +10,7 @@ var printTitle = "決標公告";
 var pView = "true";
 var test01 = "";
 function print_text_new(){
-	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51188109&print_type=printText&tenderCaseNo=1030123&pkAtmMain4Success=51188109','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51510323&print_type=printText&tenderCaseNo=1030123&pkAtmMain4Success=51510323','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 }
 
 
@@ -697,7 +697,7 @@ function popWatermark2(){
 function printBidder(pkItem){
 		//alert(pkItem);
 		
-		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51188109&pkAtmAwardItem='+pkItem+'&tenderCaseNo=1030123','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51510323&pkAtmAwardItem='+pkItem+'&tenderCaseNo=1030123','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 		
 }
 </script>
@@ -707,13 +707,13 @@ function printBidder(pkItem){
 	
 	<caption style="display:none">
 		<center><FONT SIZE="5">決標公告</FONT></center>		
-		<div id="printAwardDate" align="center" style="display:block">公告日:103/02/19</div>			
+		<div id="printAwardDate" align="center" style="display:block">公告日:104/03/20</div>			
 	</caption>
 	<tbody>
 	<tr>
 		<td align="center" colspan="4" style="border:1px solid #FFFFFF;">
 			<center><h1>決標公告</h1></center>
-			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:103/02/19</h3></div>	
+			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:104/03/20</h3></div>	
 			<div class="remind_msg"></div>			
 		</td>
 	</tr>	
@@ -730,7 +730,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關代碼</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			5.4.37
+			3.76.44.54
 		</td>
 		
 	</tr>
@@ -739,7 +739,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			臺灣士林地方法院
+			新竹縣竹東鎮公所
 		</td>
 		
 	</tr>
@@ -747,7 +747,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">單位名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-            總務科
+            新竹縣竹東鎮公所
         </td>
 		
 	</tr>
@@ -765,7 +765,7 @@ function printBidder(pkItem){
 			                                     	
 	                         
 	                         
-	                         114臺北市內湖區民權東路6段91號
+	                         310新竹縣竹東鎮東林路88號
 		</td>
 		
 	</tr>							
@@ -775,7 +775,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
 			
 			
-			劉玉琴
+			徐婷意
 	</td>
 		
 	</tr>
@@ -785,7 +785,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
             
             
-            (02)27911521&nbsp;分機&nbsp;756
+            (03)5966177&nbsp;分機&nbsp;203
         </td>
 		
 	</tr>
@@ -795,7 +795,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
                               
                               
-                              (02)27963238
+                              (03)5944251
                           </td>
 		
 	</tr>
@@ -803,35 +803,17 @@ function printBidder(pkItem){
 <!-- delimiter 機關資料 End -->
 <!-- delimiter 已公告/採購資料 Start -->
 	
-	
-		
-			
-			
-			
-				
-			
-			
-			
-				
-			
-			
-		
-		
 	 		
 	<tr class="award_table_tr_2">
 		
 		
-			
 		
 		
-			
-		
-		
-			
 		
 		
 		
 		
+			
 		
 		
 		
@@ -846,14 +828,14 @@ function printBidder(pkItem){
 		
 				
 		
+				
+		
+				
+		
+				
+		
 		
 			
-				
-		
-				
-		
-				
-		
 		
 		
 		
@@ -893,6 +875,14 @@ function printBidder(pkItem){
 		
 				
 			
+			
+		
+		
+		
+			
+						
+		
+		
 		
 		
 		
@@ -900,10 +890,10 @@ function printBidder(pkItem){
 		
 		
 		<td align="center" valign="middle" bgcolor="#FCD847"
-			class="form_head" width="38" rowspan="29 ">
+			class="form_head" width="38" rowspan="28 ">
 			
-			<span class="newstop">已<br/>公<br/>告<br/>資<br/>料</span>
 			
+			<span class="newstop">採<br/>購<br/>資<br/>料</span>
 			
 		</td>
 	</tr>							
@@ -919,7 +909,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">招標方式</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			公開招標
+			限制性招標(未經公開評選或公開徵求)
 			<div class="remind_msg">
 				
 			</div>
@@ -939,38 +929,7 @@ function printBidder(pkItem){
 		
 	</tr>
 	
-	                           
-	<tr class="award_table_tr_2">
-		<th width="200" align="left" valign="middle" bgcolor="#FFFF99" class="T11b">
-	    	是否依「機關異質採購<br>最低標作業須知」辦理
-		</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-			否
-			<div class="remind_msg">
-				
-			</div>			
-		</td>	    
-	</tr>
 	
-	
-	  
-	<tr class="award_table_tr_2">
-		<th width="200" align="left" valign="middle" bgcolor="#FFFF99" class="T11b">新增公告傳輸次數</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-			01								
-		</td>
-		
-	</tr>
-		
-	<tr class="award_table_tr_2">
-		<th bgcolor="#FFFF99" class="T11b" width="200">公告更正序號</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-			01									
-		</td>
-		
-	</tr>
-		
-	  
 	
     <tr class="award_table_tr_2">
         <th width="200" align="left" valign="middle" bgcolor="#FFFF99"
@@ -987,7 +946,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			台灣士林地方法院103年度印刷品採購案
+			新竹縣竹東鎮公所樹杞林文化館管理員
 		</td>		
 	</tr>							
 	<tr class="award_table_tr_2">
@@ -1010,6 +969,15 @@ function printBidder(pkItem){
 			否
 				
 		</td>
+	</tr>
+	
+	<tr class="award_table_tr_2">
+		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
+			class="T11b">是否屬二以上機關之聯合採購(不適用共同供應契約規定)</th>
+		<td bgcolor="#EFF1F1" class="newstop">		
+			否
+			
+		</td>		
 	</tr>
 			
 	<tr class="award_table_tr_2">
@@ -1099,18 +1067,7 @@ function printBidder(pkItem){
         <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
             width="200">開標時間</th>
         <td bgcolor="#EFF1F1" class="newstop">
-        	103/02/11 15:00
-        </td>
-
-    </tr>
-    
-    <tr class="award_table_tr_2">
-        <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
-            width="200">原公告日期</th>
-        <td bgcolor="#EFF1F1" class="newstop">
-        	103/01/29
-        	
-        	<span>　　<span class="remind_msg">原公告日期係指最近1次招標公告或更正日期</span></span>
+        	103/12/29 14:00
         </td>
 
     </tr>
@@ -1121,13 +1078,13 @@ function printBidder(pkItem){
             class="T11b">採購金額級距</th>
         <td bgcolor="#EFF1F1" class="newstop">
         	
-        	
         		
         	
         	
         	
         	
-        	公告金額以上未達查核金額
+        	
+        	未達公告金額
 			<div class="remind_msg">
 				
 			</div>
@@ -1151,6 +1108,19 @@ function printBidder(pkItem){
 	</tr>    
 	
 	
+	
+	<tr class="award_table_tr_2">
+	    <th width="200" align="left" valign="middle" bgcolor="#FFFF99"
+	        class="T11b">限制性招標<br>依據之法條</th>
+	    <td bgcolor="#EFF1F1" class="newstop">
+	    	中央機關未達公告金額採購招標辦法第2條第1項第2款
+	
+	
+	
+	        
+	                                            
+	    </td>
+	</tr>
 	
 		
     
@@ -1181,6 +1151,7 @@ function printBidder(pkItem){
 	}
 </style>
 
+
 	
 	<strong>是否適用WTO政府採購協定(GPA)：</strong>
 	
@@ -1188,7 +1159,6 @@ function printBidder(pkItem){
 		否
 		
 	
-
 
 
 	<hr>
@@ -1201,6 +1171,15 @@ function printBidder(pkItem){
 	
 
 
+	<hr>
+	
+	<strong>是否適用臺星經濟夥伴協定(ASTEP)：</strong>
+	
+	
+		否
+		
+	
+
 			
 						
 						
@@ -1209,6 +1188,11 @@ function printBidder(pkItem){
 		</td>		
 	</tr>
 		        
+		
+		
+	
+	
+		
 		
 		     
     <tr class="award_table_tr_2">
@@ -1230,12 +1214,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">預算金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			1,414,290元
-                        
-	                        
-	                        
-	                        	
-	                        
+			390,000元
                         
                         
 						
@@ -1262,16 +1241,31 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">履約地點</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			 臺北市(非原住民地區)
+			 新竹縣(非原住民地區)
 		</td>		
 	</tr>
 	<tr class="award_table_tr_2">
 	    <th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 	        class="T11b">履約地點（含地區）</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	    	臺北市－士林區
+	    	新竹縣－竹東
 		</td>	    
 	</tr>
+		
+	
+	
+	
+		<tr class="award_table_tr_2">
+			<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
+				class="T11b">是否於招標文件載明優先決標予身心障礙福利機構團體或庇護工場</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				否
+			</td>		
+		</tr>
+					
+	
+	
+		
 				
 	
 		
@@ -1299,7 +1293,9 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">本案採購契約是否採用主管機關訂定之範本</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			是
+			否
+			
+				<br/>不採用主管機關訂定之範本之理由：業務單位訂定制式契約
 			
 		</td>		
 	</tr>
@@ -1337,7 +1333,7 @@ function printBidder(pkItem){
 	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 			class="T11b">投標廠商家數</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			3
+			1
 		</td>
 
 	</tr>
@@ -1364,16 +1360,6 @@ function printBidder(pkItem){
 			class="T11b">　廠商代碼</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
 			
-				
-					
-					
-					
-						86955200
-					
-					 
-				
-				
-			
 		</td>
 		
 	</tr>
@@ -1383,7 +1369,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			文章印刷品有限公司
+			陳德金
 		</td>
 		
 	</tr>
@@ -1405,7 +1391,7 @@ function printBidder(pkItem){
 	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 	        class="T11b">　組織型態</th>
 	    <td height="7" bgcolor="#EFF1F1" class="newstop">
-	    	 公司登記
+	    	 自然人
 	    	 
 	    </td>
 	    
@@ -1431,12 +1417,10 @@ function printBidder(pkItem){
 			
 				
 				
-									
-				
 			
 											
 			
-			220新北市板橋區裕民路36巷11號
+			313新竹縣尖石鄉
 		</td>
 	
 	</tr>
@@ -1448,10 +1432,11 @@ function printBidder(pkItem){
 		
 		
 		
-		(02)
+		(0926)
 			
 			
-				22591254
+			
+				40****
 		</td>
 		
 	</tr>
@@ -1460,7 +1445,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 			class="T11b">　決標金額</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
-		1,104,000元
+		390,000元
 		</td>
 		
 	</tr>
@@ -1482,11 +1467,11 @@ function printBidder(pkItem){
 			class="T11b">　是否為中小企業</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
 			
+	                         	
 	                         		                                	
 	                         	
 	                         	
-	                         	
-	                             是
+	                             否，預估分包予中小企業之金額 0 元
 		</td>								
 		
 	</tr>
@@ -1498,7 +1483,7 @@ function printBidder(pkItem){
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
 			
 			
-			103/02/11－103/04/01
+			104/01/01－104/12/31
 		</td>
 		
 	</tr>
@@ -1518,154 +1503,6 @@ function printBidder(pkItem){
 	<!-- isEmployeeOver100 -->							
 	<!-- isObtain -->
 	
-	<!-- isNotObtain end -->		
-	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">
-			
-			
-				
-				
-				
-					投標廠商2
-					
-				
-									
-		</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop"></td>
-		
-	</tr>
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　廠商代碼</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			
-				
-				
-					
-					
-					
-						15808024
-					
-					 											
-				
-			
-		</td>
-		
-	</tr>
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　廠商名稱</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-			
-			
-			金元豐印刷企業有限公司
-		</td>
-		
-	</tr>
-	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　是否得標</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-          	
-          	
-          		                                	
-          	
-          	
-            否
-		</td>										
-	</tr>
-	
-	<tr>
-	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-	        class="T11b">　組織型態</th>
-	    <td height="7" bgcolor="#EFF1F1" class="newstop">
-	    	 公司登記
-	    	 
-	    </td>
-	    
-	</tr>
-	<!-- isObtain -->
-	
-	<!-- isNotObtain start -->
-		 
-		
-	<!-- isNotObtain end -->		
-	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">
-			
-			
-				
-				
-				
-					投標廠商3
-					
-				
-									
-		</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop"></td>
-		
-	</tr>
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　廠商代碼</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			
-				
-				
-					
-					
-					
-						70648017
-					
-					 											
-				
-			
-		</td>
-		
-	</tr>
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　廠商名稱</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-			
-			
-			福森事務用品有限公司
-		</td>
-		
-	</tr>
-	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　是否得標</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-          	
-          	
-          		                                	
-          	
-          	
-            否
-		</td>										
-	</tr>
-	
-	<tr>
-	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-	        class="T11b">　組織型態</th>
-	    <td height="7" bgcolor="#EFF1F1" class="newstop">
-	    	 公司登記
-	    	 
-	    </td>
-	    
-	</tr>
-	<!-- isObtain -->
-	
-	<!-- isNotObtain start -->
-		 
-		
 	<!-- isNotObtain end -->		
 	
 	</table>
@@ -1715,7 +1552,7 @@ function printBidder(pkItem){
 			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
 				class="T11b">　品項名稱</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				台灣士林地方法院103年度印刷品採購案
+				新竹縣竹東鎮公所樹杞林文化館管理員
 			</td>
 			
 		</tr>
@@ -1751,7 +1588,7 @@ function printBidder(pkItem){
 			<td bgcolor="#EFF1F1" class="newstop">
 				
 				
-				文章印刷品有限公司
+				陳德金
 			</td>
 			
 		</tr>
@@ -1778,7 +1615,7 @@ function printBidder(pkItem){
 				
 			</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				1,104,000
+				390,000
 			元</td>			
 		</tr>	
 		
@@ -1791,7 +1628,7 @@ function printBidder(pkItem){
 				
 			</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-			1,111,000
+			390,000
 			元</td>
 			
 		</tr>
@@ -1836,8 +1673,8 @@ function printBidder(pkItem){
 								    
 								    
 								
-									1,104,000元<br/>
-									壹<span style='color:red'>佰</span>壹拾萬零肆仟元
+									390,000元<br/>
+									參<span style='color:red'>拾</span>玖萬元
 								</td>
 							</tr>
 							
@@ -1850,132 +1687,6 @@ function printBidder(pkItem){
 			</td>
 			
 		</tr>
-		
-		
-				
-		
- 			
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　未得標廠商1</th>
-			<td bgcolor="#EFF1F1" class="newstop"></td>
-
-		</tr>
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　未得標廠商</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-				
-				
-				金元豐印刷企業有限公司
-			</td>
-			
-		</tr>
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　是否合格</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-			
-				
-			
-			
-			
-			是
-			</td>
-			
-		</tr>
-		
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　標價金額</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-			1,276,690
-			元</td>
-			
-		</tr>
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-	                        資格、規格合於招標文件但非最低(高)標
-	                        
-	                        
-			</td>			
-		</tr>
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　標價偏低理由</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-				
-				
-			</td>			
-		</tr>
-		
-		
-		
-		
-				
-		
- 			
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　未得標廠商2</th>
-			<td bgcolor="#EFF1F1" class="newstop"></td>
-
-		</tr>
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　未得標廠商</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-				
-				
-				福森事務用品有限公司
-			</td>
-			
-		</tr>
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　是否合格</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-			
-				
-			
-			
-			
-			是
-			</td>
-			
-		</tr>
-		
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
-				class="T11b">　　標價金額</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-			1,307,950
-			元</td>
-			
-		</tr>
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-	                        資格、規格合於招標文件但非最低(高)標
-	                        
-	                        
-			</td>			
-		</tr>
-		
-		<tr>
-			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　標價偏低理由</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-				
-				
-			</td>			
-		</tr>
-		
-		
 		
 		
 		
@@ -2049,7 +1760,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">決標日期</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			103/02/11
+			103/12/29
 			
 		</td>
 		
@@ -2058,7 +1769,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 	    <th bgcolor="#ddc09e" class="T11b" width="200">決標公告日期</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	        103/02/19
+	        104/03/20
 	    </td>
 	    
 	</tr>
@@ -2081,7 +1792,7 @@ function printBidder(pkItem){
 		<tr class="award_table_tr_6">
 			<th bgcolor="#ddc09e" class="T11b" width="200">底價金額</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				1,111,000元
+				390,000元
 			</td>			
 		</tr>		
 		
@@ -2100,7 +1811,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">總決標金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-		    1,104,000元
+		    390,000元
 		    
 				
 		</td>
@@ -2154,7 +1865,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			機關代碼：5.4.37<BR>機關名稱：臺灣士林地方法院			
+			機關代碼：3.76.44.54<BR>機關名稱：新竹縣竹東鎮公所			
 		</td>
 		
 	</tr>
@@ -2298,7 +2009,7 @@ function printBidder(pkItem){
       <span class="cbottom">歡迎本區第 </span>
       <span class="cright02"><strong class="counterValue"></strong></span>
       <span class="cbottom"> 位訪客(至098/12/31累計76003935人次)　台灣時間為 </span>
-      <noscript><strong class="cright02"> 18點36分</strong></noscript>
+      <noscript><strong class="cright02"> 14點50分</strong></noscript>
       <span class="cright02"><strong class="now_time"></strong></span>
 	  	<span class="cbottom">
 	  		<br>

@@ -6,11 +6,11 @@
 
 <script language="JavaScript" src="/tps/scripts/atm/atm_check_info.js"></script>
 <script type="text/javascript" language="javascript">
-var printTitle = "決標公告";
+var printTitle = "定期彙送";
 var pView = "true";
 var test01 = "";
 function print_text_new(){
-	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51423935&print_type=printText&tenderCaseNo=103063&pkAtmMain4Success=51423935','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51467823&print_type=printText&tenderCaseNo=103063&pkAtmMain4Success=51467823','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 }
 
 
@@ -697,7 +697,7 @@ function popWatermark2(){
 function printBidder(pkItem){
 		//alert(pkItem);
 		
-		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51423935&pkAtmAwardItem='+pkItem+'&tenderCaseNo=103063','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51467823&pkAtmAwardItem='+pkItem+'&tenderCaseNo=103063','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 		
 }
 </script>
@@ -706,14 +706,14 @@ function printBidder(pkItem){
 <table border="1" cellpadding="0" cellspacing="0" width="100%" class="table_block tender_table">
 	
 	<caption style="display:none">
-		<center><FONT SIZE="5">決標公告</FONT></center>		
-		<div id="printAwardDate" align="center" style="display:block">公告日:103/12/04</div>			
+		<center><FONT SIZE="5">定期彙送</FONT></center>		
+		<div id="printAwardDate" align="center" style="display:block">公告日:104/01/12</div>			
 	</caption>
 	<tbody>
 	<tr>
 		<td align="center" colspan="4" style="border:1px solid #FFFFFF;">
-			<center><h1>決標公告</h1></center>
-			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:103/12/04</h3></div>	
+			<center><h1>定期彙送</h1></center>
+			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:104/01/12</h3></div>	
 			<div class="remind_msg"></div>			
 		</td>
 	</tr>	
@@ -730,7 +730,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關代碼</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			3.76.49.70
+			3.76.45.60
 		</td>
 		
 	</tr>
@@ -739,7 +739,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			雲林縣水林鄉公所
+			苗栗縣銅鑼鄉公所
 		</td>
 		
 	</tr>
@@ -747,7 +747,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">單位名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-            雲林縣水林鄉公所
+            民政課
         </td>
 		
 	</tr>
@@ -765,7 +765,7 @@ function printBidder(pkItem){
 			                                     	
 	                         
 	                         
-	                         652雲林縣水林鄉水北村水林路12號
+	                         366苗栗縣銅鑼鄉永樂路15號
 		</td>
 		
 	</tr>							
@@ -775,7 +775,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
 			
 			
-			行政室
+			葉錦堂
 	</td>
 		
 	</tr>
@@ -785,7 +785,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
             
             
-            (05)7850001&nbsp;分機&nbsp;15
+            (037)982130&nbsp;分機&nbsp;31
         </td>
 		
 	</tr>
@@ -795,7 +795,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
                               
                               
-                              (05)7855821
+                              (037)981801
                           </td>
 		
 	</tr>
@@ -803,11 +803,31 @@ function printBidder(pkItem){
 <!-- delimiter 機關資料 End -->
 <!-- delimiter 已公告/採購資料 Start -->
 	
+	
+		
+		
+			
+			
+			
+				
+			
+			
+			
+				
+			
+			
+		
 	 		
 	<tr class="award_table_tr_2">
 		
 		
+			
 		
+		
+			
+		
+		
+			
 		
 		
 		
@@ -828,18 +848,16 @@ function printBidder(pkItem){
 		
 				
 		
-				
-		
-				
-		
-				
-		
 		
 			
+				
+		
+				
+		
+				
 		
 		
 		
-			
 				
 				
 		
@@ -849,8 +867,6 @@ function printBidder(pkItem){
 				
 				
 		
-			
-		
 		
 		
 		
@@ -859,8 +875,6 @@ function printBidder(pkItem){
 		
 				
 		
-		
-			
 		
 		
 		
@@ -893,10 +907,10 @@ function printBidder(pkItem){
 		
 		
 		<td align="center" valign="middle" bgcolor="#FCD847"
-			class="form_head" width="38" rowspan="31 ">
+			class="form_head" width="38" rowspan="30 ">
 			
+			<span class="newstop">已<br/>公<br/>告<br/>資<br/>料</span>
 			
-			<span class="newstop">採<br/>購<br/>資<br/>料</span>
 			
 		</td>
 	</tr>							
@@ -912,7 +926,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">招標方式</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			限制性招標(未經公開評選或公開徵求)
+			公開取得報價單或企劃書
 			<div class="remind_msg">
 				
 			</div>
@@ -932,7 +946,38 @@ function printBidder(pkItem){
 		
 	</tr>
 	
+	                           
+	<tr class="award_table_tr_2">
+		<th width="200" align="left" valign="middle" bgcolor="#FFFF99" class="T11b">
+	    	是否依政府採購法施行<br>細則第64條之2辦理
+		</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+			否
+			<div class="remind_msg">
+				
+			</div>			
+		</td>	    
+	</tr>
 	
+	
+	  
+	<tr class="award_table_tr_2">
+		<th width="200" align="left" valign="middle" bgcolor="#FFFF99" class="T11b">新增公告傳輸次數</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+			01								
+		</td>
+		
+	</tr>
+		
+	<tr class="award_table_tr_2">
+		<th bgcolor="#FFFF99" class="T11b" width="200">公告更正序號</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+			01									
+		</td>
+		
+	</tr>
+		
+	  
 	
     <tr class="award_table_tr_2">
         <th width="200" align="left" valign="middle" bgcolor="#FFFF99"
@@ -949,14 +994,14 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			103年度水林鄉災害搶險(修)採購開口契約(0920鳳凰颱風)
+			銅鑼鄉104年度全鄉公墓除草工作
 		</td>		
 	</tr>							
 	<tr class="award_table_tr_2">
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">決標資料類別</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			決標公告
+			定期彙送
 		</td>
 		
 	</tr>								
@@ -1070,7 +1115,18 @@ function printBidder(pkItem){
         <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
             width="200">開標時間</th>
         <td bgcolor="#EFF1F1" class="newstop">
-        	103/11/25 10:00
+        	104/01/09 09:00
+        </td>
+
+    </tr>
+    
+    <tr class="award_table_tr_2">
+        <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
+            width="200">原公告日期</th>
+        <td bgcolor="#EFF1F1" class="newstop">
+        	104/01/05
+        	
+        	<span>　　<span class="remind_msg">原公告日期係指最近1次招標公告或更正日期</span></span>
         </td>
 
     </tr>
@@ -1112,119 +1168,10 @@ function printBidder(pkItem){
 	
 	
 	
-	<tr class="award_table_tr_2">
-	    <th width="200" align="left" valign="middle" bgcolor="#FFFF99"
-	        class="T11b">限制性招標<br>依據之法條</th>
-	    <td bgcolor="#EFF1F1" class="newstop">
-	    	採購法第105條第1項第2款
-	
-	
-	
-	        
-	                                            
-	    </td>
-	</tr>
-	
 		
     
     
-	
-	<tr class="award_table_tr_2">
-		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
-			class="T11b">是否適用條約或<br>協定之採購</th>
-		<td bgcolor="#EFF1F1" class="newstop">
-			
-			
-						
-			
-			
-				
-
-
-<style type="text/css">
-	.gpa_shift {
-		margin-left: 30px;
-	}
-	.gpa_shift2 {
-		margin-left: 60px;
-	}
-	.gpa_error_msg {
-		color:#FF0000;
-		font-size:10pt;
-	}
-</style>
-
-
-	
-	<strong>是否適用WTO政府採購協定(GPA)：</strong>
-	
-	
-		否
-		
-	
-
-
-	<hr>
-	
-	<strong>是否適用臺紐經濟合作協定(ANZTEC)：</strong>
-	
-	
-		否
-		
-	
-
-
-	<hr>
-	
-	<strong>是否適用臺星經濟夥伴協定(ASTEP)：</strong>
-	
-	
-		否
-		
-	
-
-			
-						
-						
-			
-			
-		</td>		
-	</tr>
 		        
-		
-		
-	
-	
-	
-	<tr class="award_table_tr_2">
-	    <th width="200" align="left" valign="middle" bgcolor="#FFFF99" class="T11b">	    
-		    
-			
-				人民之生命、身體、健康、財產遭遇緊急危難日期
-			
-	    </th>
-	    <td bgcolor="#EFF1F1" class="newstop">
-	    	103/09/20
-			
-				
-               	<BR/>
-               	
-				
-               		本案自遭遇緊急危難日期至決標日期超過24日，為何無法以公開或選擇性招標程序辦理，仍以本款辦理之理由:<BR/>
-				               	
-               	0920鳳凰颱風辦理緊急搶險已超出契約(103年度水林鄉災害搶險(修)採購開口契約)，超出部分須結算後方可確認
-            	    	
-	    </td>
-	</tr>
-	<tr class="award_table_tr_2">
-	    <th width="200" align="left" valign="middle" bgcolor="#FFFF99"
-	        class="T11b">本採購案簽准日期</th>
-	    <td bgcolor="#EFF1F1" class="newstop">
-	    	103/11/18
-					    	
-	    </td>
-	</tr>
-		
 		
 		     
     <tr class="award_table_tr_2">
@@ -1246,7 +1193,12 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">預算金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			403,432元
+			300,000元
+                        
+	                        
+	                        
+	                        	
+	                        
                         
                         
 						
@@ -1260,65 +1212,27 @@ function printBidder(pkItem){
 			class="T11b">是否受機關補助</th>
 		<td bgcolor="#EFF1F1" class="newstop">
 			
+			
 				
 			
 			
-			
-			是
+			否
 		</td>
 		
 	</tr>
-	
-	
-	<tr class="award_table_tr_2">
-		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
-			class="T11b">&nbsp;</th>
-		<td bgcolor="#EFF1F1" class="newstop" colspan="2">
-			<table border="0" bgcolor="#FFCC66"	style="vertical-align: middle; text-align: center" summary="*">
-				<tr id="grant_org_item" align="center" valign="middle">
-					<td align="center" valign="middle" bgcolor="#FFFF99"
-						class="workstop" width="50" style="text-align: center">項次</td>
-					<td align="center" valign="middle" bgcolor="#FFFF99"
-						class="workstop" width="150">補助機關代碼</td>
-					<td align="center" valign="middle" bgcolor="#FFFF99"
-						class="workstop" width="150">補助機關名稱</td>
-					<td align="center" valign="middle" bgcolor="#FFFF99"
-						class="workstop" width="180">補助金額</td>
-				</tr>
-
-								
-					
-					<tr bgcolor="#FFFFC8">
-						<td bgcolor="#FFFFC8" align="center" class="T10" width="50">1</td>
-						<td bgcolor="#FFFFC8" align="center" class="T10" width="150">
-							3.76.49
-						</td>
-						<td bgcolor="#FFFFC8" align="center" class="T10" width="150">
-							雲林縣政府
-						</td>
-						<td bgcolor="#FFFFC8" align="center" class="T10" width="180">
-							403,432元
-						</td>
-					</tr>
-					
-				
-			</table>
-		</td>
-	</tr>
-	
 	
 	<tr class="award_table_tr_2">
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">履約地點</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			 雲林縣(非原住民地區)
+			 苗栗縣(非原住民地區)
 		</td>		
 	</tr>
 	<tr class="award_table_tr_2">
 	    <th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 	        class="T11b">履約地點（含地區）</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	    	雲林縣－水林
+	    	苗栗縣－銅鑼
 		</td>	    
 	</tr>
 		
@@ -1432,16 +1346,6 @@ function printBidder(pkItem){
 			class="T11b">　廠商代碼</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
 			
-				
-					
-					
-					
-						25491616
-					
-					 
-				
-				
-			
 		</td>
 		
 	</tr>
@@ -1451,7 +1355,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			鴻祥土木包工業
+			劉智榮
 		</td>
 		
 	</tr>
@@ -1473,7 +1377,7 @@ function printBidder(pkItem){
 	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 	        class="T11b">　組織型態</th>
 	    <td height="7" bgcolor="#EFF1F1" class="newstop">
-	    	 商業登記
+	    	 自然人
 	    	 
 	    </td>
 	    
@@ -1499,12 +1403,10 @@ function printBidder(pkItem){
 			
 				
 				
-									
-				
 			
 											
 			
-			652雲林縣水林鄉尖山村頂尖山路34號1樓
+			366苗栗縣銅鑼鄉
 		</td>
 	
 	</tr>
@@ -1516,10 +1418,11 @@ function printBidder(pkItem){
 		
 		
 		
-		(09)
+		(0910)
 			
 			
-				32557893
+			
+				45****
 		</td>
 		
 	</tr>
@@ -1528,7 +1431,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 			class="T11b">　決標金額</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
-		389,000元
+		295,000元
 		</td>
 		
 	</tr>
@@ -1550,11 +1453,11 @@ function printBidder(pkItem){
 			class="T11b">　是否為中小企業</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
 			
+	                         	
 	                         		                                	
 	                         	
 	                         	
-	                         	
-	                             是
+	                             否，預估分包予中小企業之金額 0 元
 		</td>								
 		
 	</tr>
@@ -1566,7 +1469,7 @@ function printBidder(pkItem){
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
 			
 			
-			103/12/04－103/12/31
+			104/01/16－104/12/31
 		</td>
 		
 	</tr>
@@ -1635,7 +1538,7 @@ function printBidder(pkItem){
 			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
 				class="T11b">　品項名稱</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				103年度水林鄉災害搶險(修)採購開口契約(0920鳳凰颱風)
+				銅鑼鄉104年度全鄉公墓除草工作
 			</td>
 			
 		</tr>
@@ -1671,7 +1574,7 @@ function printBidder(pkItem){
 			<td bgcolor="#EFF1F1" class="newstop">
 				
 				
-				鴻祥土木包工業
+				劉智榮
 			</td>
 			
 		</tr>
@@ -1698,7 +1601,7 @@ function printBidder(pkItem){
 				
 			</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				389,000
+				295,000
 			元</td>			
 		</tr>	
 		
@@ -1711,7 +1614,7 @@ function printBidder(pkItem){
 				
 			</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-			389,000
+			295,555
 			元</td>
 			
 		</tr>
@@ -1756,8 +1659,8 @@ function printBidder(pkItem){
 								    
 								    
 								
-									389,000元<br/>
-									參<span style='color:red'>拾</span>捌萬玖仟元
+									295,000元<br/>
+									貳<span style='color:red'>拾</span>玖萬伍仟元
 								</td>
 							</tr>
 							
@@ -1843,7 +1746,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">決標日期</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			103/11/25
+			104/01/09
 			
 		</td>
 		
@@ -1852,7 +1755,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 	    <th bgcolor="#ddc09e" class="T11b" width="200">決標公告日期</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	        103/12/04
+	        104/01/12
 	    </td>
 	    
 	</tr>
@@ -1875,7 +1778,7 @@ function printBidder(pkItem){
 		<tr class="award_table_tr_6">
 			<th bgcolor="#ddc09e" class="T11b" width="200">底價金額</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				389,000元
+				295,555元
 			</td>			
 		</tr>		
 		
@@ -1894,7 +1797,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">總決標金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-		    389,000元
+		    295,000元
 		    
 				
 		</td>
@@ -1948,7 +1851,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			機關代碼：3.76.49.70<BR>機關名稱：雲林縣水林鄉公所			
+			機關代碼：3.76.45.60<BR>機關名稱：苗栗縣銅鑼鄉公所			
 		</td>
 		
 	</tr>
@@ -1958,7 +1861,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">附加說明</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			
+			第一期除草工作於簽約後即可函報本所開工，但實際開工日不得早於104年1月1日，函報本所竣工日不得晚於104年2月15日：第二期除草工作於本所通知日10天內函報本所開工並於開工日30日內函報竣工。<br>
 		</td>
 		
 	</tr>
@@ -2092,7 +1995,7 @@ function printBidder(pkItem){
       <span class="cbottom">歡迎本區第 </span>
       <span class="cright02"><strong class="counterValue"></strong></span>
       <span class="cbottom"> 位訪客(至098/12/31累計76003935人次)　台灣時間為 </span>
-      <noscript><strong class="cright02"> 22點50分</strong></noscript>
+      <noscript><strong class="cright02"> 14點15分</strong></noscript>
       <span class="cright02"><strong class="now_time"></strong></span>
 	  	<span class="cbottom">
 	  		<br>

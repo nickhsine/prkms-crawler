@@ -10,7 +10,7 @@ var printTitle = "決標公告";
 var pView = "true";
 var test01 = "";
 function print_text_new(){
-	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51457266&print_type=printText&tenderCaseNo=C1031101&pkAtmMain4Success=51457266','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+	    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?newEdit=false&searchMode=common&method=inquiryForPublic&pkAtmMain=51464662&print_type=printText&tenderCaseNo=C1031101&pkAtmMain4Success=51464662','_blank','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 }
 
 
@@ -697,7 +697,7 @@ function popWatermark2(){
 function printBidder(pkItem){
 		//alert(pkItem);
 		
-		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51457266&pkAtmAwardItem='+pkItem+'&tenderCaseNo=C1031101','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
+		    var popupWindow = window.open('/tps/main/pms/tps/atm/atmAwardAction.do?method=qryCppObtain&pkAtmMain=51464662&pkAtmAwardItem='+pkItem+'&tenderCaseNo=C1031101','showBidder','status=yes,toolbar=no,menubar=no,location=no,resizable=yes,scrollbars=yes,width=750,height=500',true);				
 		
 }
 </script>
@@ -707,13 +707,13 @@ function printBidder(pkItem){
 	
 	<caption style="display:none">
 		<center><FONT SIZE="5">決標公告</FONT></center>		
-		<div id="printAwardDate" align="center" style="display:block">公告日:103/12/30</div>			
+		<div id="printAwardDate" align="center" style="display:block">公告日:104/01/08</div>			
 	</caption>
 	<tbody>
 	<tr>
 		<td align="center" colspan="4" style="border:1px solid #FFFFFF;">
 			<center><h1>決標公告</h1></center>
-			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:103/12/30</h3></div>	
+			<div id="printAwardDate" align="center" style="display:block"><h3>公告日:104/01/08</h3></div>	
 			<div class="remind_msg"></div>			
 		</td>
 	</tr>	
@@ -730,7 +730,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關代碼</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			3.97.58
+			5.1.1
 		</td>
 		
 	</tr>
@@ -739,7 +739,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">機關名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-			高雄市苓雅區公所
+			臺北高等行政法院
 		</td>
 		
 	</tr>
@@ -747,7 +747,7 @@ function printBidder(pkItem){
 		<th valign="middle" bgcolor="#DAEBED" class="T11b" width="200"
 			align="left">單位名稱</th>
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
-            秘書室
+            臺北高等行政法院
         </td>
 		
 	</tr>
@@ -765,7 +765,7 @@ function printBidder(pkItem){
 			                                     	
 	                         
 	                         
-	                         802高雄市苓雅區民權一路85號5樓
+	                         111臺北市士林區文林路725號
 		</td>
 		
 	</tr>							
@@ -775,7 +775,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
 			
 			
-			李亮瑛
+			林靜枝
 	</td>
 		
 	</tr>
@@ -785,7 +785,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
             
             
-            (07)3322351&nbsp;分機&nbsp;2576
+            (02)28333822&nbsp;分機&nbsp;309
         </td>
 		
 	</tr>
@@ -795,7 +795,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop" height="25">
                               
                               
-                              (07)3317369
+                              (02)28333092
                           </td>
 		
 	</tr>
@@ -803,10 +803,28 @@ function printBidder(pkItem){
 <!-- delimiter 機關資料 End -->
 <!-- delimiter 已公告/採購資料 Start -->
 	
+	
+		
+		
+			
+			
+			
+				
+			
+			
+			
+				
+			
+			
+		
 	 		
 	<tr class="award_table_tr_2">
 		
 		
+			
+		
+		
+			
 		
 		
 		
@@ -828,14 +846,14 @@ function printBidder(pkItem){
 		
 				
 		
-				
-		
-				
-		
-				
-		
 		
 			
+				
+		
+				
+		
+				
+		
 		
 		
 		
@@ -875,13 +893,6 @@ function printBidder(pkItem){
 		
 				
 			
-			
-		
-		
-			
-		
-		
-		
 		
 		
 		
@@ -889,10 +900,10 @@ function printBidder(pkItem){
 		
 		
 		<td align="center" valign="middle" bgcolor="#FCD847"
-			class="form_head" width="38" rowspan="28 ">
+			class="form_head" width="38" rowspan="29 ">
 			
+			<span class="newstop">已<br/>公<br/>告<br/>資<br/>料</span>
 			
-			<span class="newstop">採<br/>購<br/>資<br/>料</span>
 			
 		</td>
 	</tr>							
@@ -908,7 +919,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">招標方式</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			限制性招標(未經公開評選或公開徵求)
+			公開招標
 			<div class="remind_msg">
 				
 			</div>
@@ -928,7 +939,30 @@ function printBidder(pkItem){
 		
 	</tr>
 	
+	                           
+	<tr class="award_table_tr_2">
+		<th width="200" align="left" valign="middle" bgcolor="#FFFF99" class="T11b">
+	    	是否依政府採購法施行<br>細則第64條之2辦理
+		</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+			否
+			<div class="remind_msg">
+				
+			</div>			
+		</td>	    
+	</tr>
 	
+	
+	  
+	<tr class="award_table_tr_2">
+		<th width="200" align="left" valign="middle" bgcolor="#FFFF99" class="T11b">新增公告傳輸次數</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+			01								
+		</td>
+		
+	</tr>
+		
+	  
 	
     <tr class="award_table_tr_2">
         <th width="200" align="left" valign="middle" bgcolor="#FFFF99"
@@ -945,7 +979,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			高雄市苓雅區行政中心辦公大樓升降機設備委外保養維護
+			臺北高等行政法院104年度清潔維護勞務採購案
 		</td>		
 	</tr>							
 	<tr class="award_table_tr_2">
@@ -974,7 +1008,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">是否屬二以上機關之聯合採購(不適用共同供應契約規定)</th>
 		<td bgcolor="#EFF1F1" class="newstop">		
-			是
+			否
 			
 		</td>		
 	</tr>
@@ -1066,7 +1100,18 @@ function printBidder(pkItem){
         <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
             width="200">開標時間</th>
         <td bgcolor="#EFF1F1" class="newstop">
-        	103/12/09 10:00
+        	103/12/08 10:00
+        </td>
+
+    </tr>
+    
+    <tr class="award_table_tr_2">
+        <th align="left" valign="middle" bgcolor="#FFFF99" class="T11b"
+            width="200">原公告日期</th>
+        <td bgcolor="#EFF1F1" class="newstop">
+        	103/11/21
+        	
+        	<span>　　<span class="remind_msg">原公告日期係指最近1次招標公告或更正日期</span></span>
         </td>
 
     </tr>
@@ -1077,13 +1122,13 @@ function printBidder(pkItem){
             class="T11b">採購金額級距</th>
         <td bgcolor="#EFF1F1" class="newstop">
         	
+        	
         		
         	
         	
         	
         	
-        	
-        	未達公告金額
+        	公告金額以上未達查核金額
 			<div class="remind_msg">
 				
 			</div>
@@ -1107,19 +1152,6 @@ function printBidder(pkItem){
 	</tr>    
 	
 	
-	
-	<tr class="award_table_tr_2">
-	    <th width="200" align="left" valign="middle" bgcolor="#FFFF99"
-	        class="T11b">限制性招標<br>依據之法條</th>
-	    <td bgcolor="#EFF1F1" class="newstop">
-	    	中央機關未達公告金額採購招標辦法第2條第1項第2款
-	
-	
-	
-	        
-	                                            
-	    </td>
-	</tr>
 	
 		
     
@@ -1188,11 +1220,6 @@ function printBidder(pkItem){
 	</tr>
 		        
 		
-		
-	
-	
-		
-		
 		     
     <tr class="award_table_tr_2">
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
@@ -1213,7 +1240,12 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">預算金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			354,000元
+			3,000,000元
+                        
+	                        
+	                        
+	                        	
+	                        
                         
                         
 						
@@ -1240,35 +1272,16 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 			class="T11b">履約地點</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			 高雄市(非原住民地區)
+			 臺北市(非原住民地區)
 		</td>		
 	</tr>
 	<tr class="award_table_tr_2">
 	    <th width="200" align="left" valign="middle" bgcolor="#FFFF99"
 	        class="T11b">履約地點（含地區）</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	    	高雄市－苓雅區
+	    	臺北市－士林區
 		</td>	    
 	</tr>
-		
-	
-	
-		<tr class="award_table_tr_2">
-			<th width="200" align="left" valign="middle" bgcolor="#FFFF99"
-				class="T11b">是否屬優先採購身心障礙福利機構產品或勞務</th>
-			<td bgcolor="#EFF1F1" class="newstop">
-			
-			
-				
-			
-			
-			否
-			</td>		
-		</tr>
-	
-	
-	
-		
 				
 	
 		
@@ -1334,7 +1347,7 @@ function printBidder(pkItem){
 	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 			class="T11b">投標廠商家數</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			1
+			7
 		</td>
 
 	</tr>
@@ -1365,7 +1378,7 @@ function printBidder(pkItem){
 					
 					
 					
-						81108972
+						80523389
 					
 					 
 				
@@ -1380,7 +1393,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			台灣三菱電梯股份有限公司高雄分公司
+			九鼎知識整合行銷有限公司
 		</td>
 		
 	</tr>
@@ -1433,7 +1446,7 @@ function printBidder(pkItem){
 			
 											
 			
-			802高雄市苓雅區四維三路157號
+			111臺北市士林區福國路15巷7號2樓
 		</td>
 	
 	</tr>
@@ -1445,10 +1458,10 @@ function printBidder(pkItem){
 		
 		
 		
-		(07)
+		(02)
 			
 			
-				3342123
+				28375100
 		</td>
 		
 	</tr>
@@ -1457,7 +1470,7 @@ function printBidder(pkItem){
 		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
 			class="T11b">　決標金額</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
-		352,000元
+		2,296,080元
 		</td>
 		
 	</tr>
@@ -1504,42 +1517,461 @@ function printBidder(pkItem){
 			class="T11b">　雇用員工總人數是否<br>　超過100人</th>
 		<td height="25" bgcolor="#EFF1F1" class="newstop">
 			
+	                         	
 	                         		                                	
 	                         	
 	                         	
-	                         	
-	                         是
+	                         否
 		</td>
 		
 	</tr>
-	
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　僱用員工總<br>　人數</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			130
-		</td>
-		
-	</tr>
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　已僱用原住民<br>　人數</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			1
-		</td>
-		
-	</tr>
-	<tr>
-		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
-			class="T11b">　已僱用身心障礙者<br>　人數</th>
-		<td height="25" bgcolor="#EFF1F1" class="newstop">
-			4
-		</td>
-		
-	</tr>							
 	<!-- isEmployeeOver100 -->							
 	<!-- isObtain -->
 	
+	<!-- isNotObtain end -->		
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">
+			
+			
+				
+				
+				
+					投標廠商2
+					
+				
+									
+		</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop"></td>
+		
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　廠商代碼</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+			
+				
+				
+					
+					
+					
+						12240700
+					
+					 											
+				
+			
+		</td>
+		
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　廠商名稱</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+			
+			
+			日新地毯清潔器材有限公司
+		</td>
+		
+	</tr>
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　是否得標</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+          	
+          	
+          		                                	
+          	
+          	
+            否
+		</td>										
+	</tr>
+	
+	<tr>
+	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+	        class="T11b">　組織型態</th>
+	    <td height="7" bgcolor="#EFF1F1" class="newstop">
+	    	 公司登記
+	    	 
+	    </td>
+	    
+	</tr>
+	<!-- isObtain -->
+	
+	<!-- isNotObtain start -->
+		 
+		
+	<!-- isNotObtain end -->		
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">
+			
+			
+				
+				
+				
+					投標廠商3
+					
+				
+									
+		</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop"></td>
+		
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　廠商代碼</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+			
+				
+				
+					
+					
+					
+						30209104
+					
+					 											
+				
+			
+		</td>
+		
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　廠商名稱</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+			
+			
+			峰鼎企業社即莊立杰
+		</td>
+		
+	</tr>
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　是否得標</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+          	
+          	
+          		                                	
+          	
+          	
+            否
+		</td>										
+	</tr>
+	
+	<tr>
+	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+	        class="T11b">　組織型態</th>
+	    <td height="7" bgcolor="#EFF1F1" class="newstop">
+	    	 其他
+	    	 
+	    </td>
+	    
+	</tr>
+	<!-- isObtain -->
+	
+	<!-- isNotObtain start -->
+		 
+		
+	<!-- isNotObtain end -->		
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">
+			
+			
+				
+				
+				
+					投標廠商4
+					
+				
+									
+		</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop"></td>
+		
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　廠商代碼</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+			
+				
+				
+					
+					
+					
+						86886400
+					
+					 											
+				
+			
+		</td>
+		
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　廠商名稱</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+			
+			
+			德歐仕捷盟環保科技股份有限公司
+		</td>
+		
+	</tr>
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　是否得標</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+          	
+          	
+          		                                	
+          	
+          	
+            否
+		</td>										
+	</tr>
+	
+	<tr>
+	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+	        class="T11b">　組織型態</th>
+	    <td height="7" bgcolor="#EFF1F1" class="newstop">
+	    	 公司登記
+	    	 
+	    </td>
+	    
+	</tr>
+	<!-- isObtain -->
+	
+	<!-- isNotObtain start -->
+		 
+		
+	<!-- isNotObtain end -->		
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">
+			
+			
+				
+				
+				
+					投標廠商5
+					
+				
+									
+		</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop"></td>
+		
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　廠商代碼</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+			
+				
+				
+					
+					
+					
+						96965776
+					
+					 											
+				
+			
+		</td>
+		
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　廠商名稱</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+			
+			
+			東寧環保清潔有限公司
+		</td>
+		
+	</tr>
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　是否得標</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+          	
+          	
+          		                                	
+          	
+          	
+            否
+		</td>										
+	</tr>
+	
+	<tr>
+	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+	        class="T11b">　組織型態</th>
+	    <td height="7" bgcolor="#EFF1F1" class="newstop">
+	    	 公司登記
+	    	 
+	    </td>
+	    
+	</tr>
+	<!-- isObtain -->
+	
+	<!-- isNotObtain start -->
+		 
+		
+	<!-- isNotObtain end -->		
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">
+			
+			
+				
+				
+				
+					投標廠商6
+					
+				
+									
+		</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop"></td>
+		
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　廠商代碼</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+			
+				
+				
+					
+					
+					
+						53422606
+					
+					 											
+				
+			
+		</td>
+		
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　廠商名稱</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+			
+			
+			潔之坊清潔事業股份有限公司
+		</td>
+		
+	</tr>
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　是否得標</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+          	
+          	
+          		                                	
+          	
+          	
+            否
+		</td>										
+	</tr>
+	
+	<tr>
+	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+	        class="T11b">　組織型態</th>
+	    <td height="7" bgcolor="#EFF1F1" class="newstop">
+	    	 公司登記
+	    	 
+	    </td>
+	    
+	</tr>
+	<!-- isObtain -->
+	
+	<!-- isNotObtain start -->
+		 
+		
+	<!-- isNotObtain end -->		
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">
+			
+			
+				
+				
+				
+					投標廠商7
+					
+				
+									
+		</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop"></td>
+		
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　廠商代碼</th>
+		<td height="25" bgcolor="#EFF1F1" class="newstop">
+			
+				
+				
+					
+					
+					
+						53183540
+					
+					 											
+				
+			
+		</td>
+		
+	</tr>
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　廠商名稱</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+			
+			
+			祥豪物業管理顧問有限公司
+		</td>
+		
+	</tr>
+	
+	<tr>
+		<th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+			class="T11b">　是否得標</th>
+		<td bgcolor="#EFF1F1" class="newstop">
+          	
+          	
+          		                                	
+          	
+          	
+            否
+		</td>										
+	</tr>
+	
+	<tr>
+	    <th width="200" align="left" valign="middle" bgcolor="#ffdd83"
+	        class="T11b">　組織型態</th>
+	    <td height="7" bgcolor="#EFF1F1" class="newstop">
+	    	 公司登記
+	    	 
+	    </td>
+	    
+	</tr>
+	<!-- isObtain -->
+	
+	<!-- isNotObtain start -->
+		 
+		
 	<!-- isNotObtain end -->		
 	
 	</table>
@@ -1589,7 +2021,7 @@ function printBidder(pkItem){
 			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
 				class="T11b">　品項名稱</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				高雄市苓雅區行政中心辦公大樓升降機設備委外保養維護
+				臺北高等行政法院104年度清潔維護勞務採購案
 			</td>
 			
 		</tr>
@@ -1625,7 +2057,7 @@ function printBidder(pkItem){
 			<td bgcolor="#EFF1F1" class="newstop">
 				
 				
-				台灣三菱電梯股份有限公司高雄分公司
+				九鼎知識整合行銷有限公司
 			</td>
 			
 		</tr>
@@ -1652,7 +2084,7 @@ function printBidder(pkItem){
 				
 			</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				352,000
+				2,296,080
 			元</td>			
 		</tr>	
 		
@@ -1665,14 +2097,10 @@ function printBidder(pkItem){
 				
 			</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-			354,000
+			2,700,000
 			元</td>
 			
 		</tr>
-		
-		
-		
-		
 		
 									
 		
@@ -1710,8 +2138,8 @@ function printBidder(pkItem){
 								    
 								    
 								
-									352,000元<br/>
-									參<span style='color:red'>拾</span>伍萬貳仟元
+									2,296,080元<br/>
+									貳<span style='color:red'>佰</span>貳拾玖萬陸仟零捌拾元
 								</td>
 							</tr>
 							
@@ -1724,6 +2152,366 @@ function printBidder(pkItem){
 			</td>
 			
 		</tr>
+		
+		
+				
+		
+ 			
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　未得標廠商1</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　未得標廠商</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+				日新地毯清潔器材有限公司
+			</td>
+			
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　是否合格</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			
+				
+			
+			
+			
+			是
+			</td>
+			
+		</tr>
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　標價金額</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			2,454,808
+			元</td>
+			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+	                        資格、規格合於招標文件但非最低(高)標
+	                        
+	                        
+			</td>			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　標價偏低理由</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+			</td>			
+		</tr>
+		
+		
+		
+		
+				
+		
+ 			
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　未得標廠商2</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　未得標廠商</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+				峰鼎企業社即莊立杰
+			</td>
+			
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　是否合格</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			
+				
+			
+			
+			
+			是
+			</td>
+			
+		</tr>
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　標價金額</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			2,777,817
+			元</td>
+			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+	                        資格、規格合於招標文件但非最低(高)標
+	                        
+	                        
+			</td>			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　標價偏低理由</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+			</td>			
+		</tr>
+		
+		
+		
+		
+				
+		
+ 			
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　未得標廠商3</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　未得標廠商</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+				德歐仕捷盟環保科技股份有限公司
+			</td>
+			
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　是否合格</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			
+			
+				
+			
+			
+			否
+			</td>
+			
+		</tr>
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+	                        未依招標文件規定投標
+	                        
+	                        
+			</td>			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　標價偏低理由</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+			</td>			
+		</tr>
+		
+		
+		
+		
+				
+		
+ 			
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　未得標廠商4</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　未得標廠商</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+				東寧環保清潔有限公司
+			</td>
+			
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　是否合格</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			
+				
+			
+			
+			
+			是
+			</td>
+			
+		</tr>
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　標價金額</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			2,397,000
+			元</td>
+			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+	                        資格、規格合於招標文件但非最低(高)標
+	                        
+	                        
+			</td>			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　標價偏低理由</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+			</td>			
+		</tr>
+		
+		
+		
+		
+				
+		
+ 			
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　未得標廠商5</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　未得標廠商</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+				潔之坊清潔事業股份有限公司
+			</td>
+			
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　是否合格</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			
+				
+			
+			
+			
+			是
+			</td>
+			
+		</tr>
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　標價金額</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			2,772,000
+			元</td>
+			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+	                        資格、規格合於招標文件但非最低(高)標
+	                        
+	                        
+			</td>			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　標價偏低理由</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+			</td>			
+		</tr>
+		
+		
+		
+		
+				
+		
+ 			
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　未得標廠商6</th>
+			<td bgcolor="#EFF1F1" class="newstop"></td>
+
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　未得標廠商</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+				祥豪物業管理顧問有限公司
+			</td>
+			
+		</tr>
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC"
+				class="T11b">　　是否合格</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+			
+			
+				
+			
+			
+			否
+			</td>
+			
+		</tr>
+		
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　未得標原因</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+	                        未依招標文件規定投標
+	                        
+	                        
+			</td>			
+		</tr>
+		
+		<tr>
+			<th width="200" align="left" valign="middle" bgcolor="#FFCCCC" class="T11b">　　標價偏低理由</th>
+			<td bgcolor="#EFF1F1" class="newstop">
+				
+				
+			</td>			
+		</tr>
+		
+		
 		
 		
 		
@@ -1797,7 +2585,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">決標日期</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-			103/12/09
+			103/12/08
 			
 		</td>
 		
@@ -1806,7 +2594,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 	    <th bgcolor="#ddc09e" class="T11b" width="200">決標公告日期</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
-	        103/12/30
+	        104/01/08
 	    </td>
 	    
 	</tr>
@@ -1816,11 +2604,11 @@ function printBidder(pkItem){
 	    <th bgcolor="#ddc09e" class="T11b" width="200">是否刊登公報</th>
 	    <td bgcolor="#EFF1F1" class="newstop">
 		
-		
 			
 		
 		
-			否
+		
+			是
 		</td>		
 	</tr>
 	
@@ -1829,7 +2617,7 @@ function printBidder(pkItem){
 		<tr class="award_table_tr_6">
 			<th bgcolor="#ddc09e" class="T11b" width="200">底價金額</th>
 			<td bgcolor="#EFF1F1" class="newstop">
-				354,000元
+				2,700,000元
 			</td>			
 		</tr>		
 		
@@ -1848,7 +2636,7 @@ function printBidder(pkItem){
 	<tr class="award_table_tr_6">
 		<th bgcolor="#ddc09e" class="T11b" width="200">總決標金額</th>
 		<td bgcolor="#EFF1F1" class="newstop">
-		    352,000元
+		    2,296,080元
 		    
 				
 		</td>
@@ -1902,7 +2690,7 @@ function printBidder(pkItem){
 		<td bgcolor="#EFF1F1" class="newstop">
 			
 			
-			機關代碼：3.97.58<BR>機關名稱：高雄市苓雅區公所			
+			機關代碼：5.1.1<BR>機關名稱：臺北高等行政法院			
 		</td>
 		
 	</tr>
@@ -2046,7 +2834,7 @@ function printBidder(pkItem){
       <span class="cbottom">歡迎本區第 </span>
       <span class="cright02"><strong class="counterValue"></strong></span>
       <span class="cbottom"> 位訪客(至098/12/31累計76003935人次)　台灣時間為 </span>
-      <noscript><strong class="cright02"> 22點41分</strong></noscript>
+      <noscript><strong class="cright02"> 14點36分</strong></noscript>
       <span class="cright02"><strong class="now_time"></strong></span>
 	  	<span class="cbottom">
 	  		<br>
