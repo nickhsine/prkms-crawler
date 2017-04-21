@@ -24,7 +24,7 @@ function fetchByUrlAndSave(url) {
           return
         }
         const filename = `pkAtmMain=${urlObj.pkAtmMain}&tenderCaseNo=${urlObj.tenderCaseNo}`
-	
+
         fs.writeFile('results/' + filename, response, (err) => {
           if (err) {
             reject(err)
@@ -32,6 +32,9 @@ function fetchByUrlAndSave(url) {
           }
           resolve()
         })
+      }).catch((err) => {
+        console.warn(`url: ${url} is failed to fetch`)
+        resolve()
       })
   })
 }
