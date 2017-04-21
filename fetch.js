@@ -18,13 +18,14 @@ function fetchByUrlAndSave(url) {
     }
     request(options)
       .then((response) => {
-        const index = url.indexOf('tenderCaseNo')
-        if (index == -1) {
+	const urlObj = qs.parse(url)
+        if (typeof urlObj !== 'object' || !urlObj.tenderCaseNo || !urlObj.pkAtmMain) {
           resolve()
           return
         }
-        const filename = url.slice(index, url.length)
-        fs.writeFile('97/' + filename, response, (err) => {
+        const filename = `pkAtmMain=${urlObj.pkAtmMain}&tenderCaseNo=${urlObj.tenderCaseNo}`
+	
+        fs.writeFile('results/' + filename, response, (err) => {
           if (err) {
             reject(err)
             return
