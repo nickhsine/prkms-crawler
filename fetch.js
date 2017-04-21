@@ -92,6 +92,10 @@ function fetchByTimeRange(timeRange) {
           totalItems = parseInt(totalItems)
 
           matches = response.match(/<a href="(\/tps\/main\/pms\/tps\/atm.*?)">/g)
+          if(!Array.isArray(matches)) {
+            console.warn("response is not expected")
+            resolve()
+          }
           matches = matches.map((match) => {
             const result = /<a href="(.+?)">/.exec(match)
             return 'https://web.pcc.gov.tw' + result[1]
