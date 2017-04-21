@@ -3,9 +3,9 @@ import fs from 'fs'
 import qs from 'qs'
 import sleep from 'sleep'
 
-const querySentence = '其他服務'
+const querySentence = process.argv[2]
 
-const timeRanges = [ process.argv[2] ]
+const timeRanges = [ process.argv[3] ]
 
 console.log(timeRanges)
 
@@ -117,11 +117,12 @@ function fetchByTimeRange(timeRange) {
     })
   }
 
-  let startPage = parseInt(process.argv[3])
+  let startPage = parseInt(process.argv[4])
   let totalPage = 0
   return fetchByPage(startPage)
     .then(() => {
       totalPage = Math.ceil(totalItems / itemPerPage)
+      console.log('total page:', totalPage)
       const pages = []
       for (let i = startPage + 1; i <= totalPage; i++) {
         pages.push(i)
