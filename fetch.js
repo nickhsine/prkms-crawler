@@ -18,6 +18,7 @@ function fetchByUrlAndSave(url) {
     }
 	  const urlObj = qs.parse(url)
     const filename = `pkAtmMain=${urlObj.pkAtmMain}&tenderCaseNo=${urlObj.tenderCaseNo}`
+    console.log('filename:', filename)
 
     if (fs.existsSync(`${__dirname}/results/${filename}`)) {
       console.log('file is existed')
@@ -36,6 +37,7 @@ function fetchByUrlAndSave(url) {
             reject(err)
             return
           }
+          console.log('write into file: ', filename);
           resolve()
         })
       }).catch((err) => {
