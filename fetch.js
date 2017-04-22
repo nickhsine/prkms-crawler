@@ -133,7 +133,7 @@ function fetchByTimeRange(timeRange) {
       console.log('total page:', totalPage)
       const pages = []
       for (let i = startPage + 1; i <= totalPage; i++) {
-        pages.push(i)
+        pages.unshift(i)
       }
 
       return pages.reduce((p, page, index) => {
