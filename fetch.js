@@ -16,14 +16,20 @@ function fetchByUrlAndSave(url) {
       url: url,
       method: 'GET'
     }
+	  const urlObj = qs.parse(url)
+    const filename = `pkAtmMain=${urlObj.pkAtmMain}&tenderCaseNo=${urlObj.tenderCaseNo}`
+
+    if (fs.existsSync(`${__dirname}/results/${filename}`)) {
+      console.log('file is existed')
+      return resolve()
+    }
+
     request(options)
       .then((response) => {
-	const urlObj = qs.parse(url)
         if (typeof urlObj !== 'object' || !urlObj.tenderCaseNo || !urlObj.pkAtmMain) {
           resolve()
           return
         }
-        const filename = `pkAtmMain=${urlObj.pkAtmMain}&tenderCaseNo=${urlObj.tenderCaseNo}`
 
         fs.writeFile(__dirname +'/results/' + filename, response, (err) => {
           if (err) {
