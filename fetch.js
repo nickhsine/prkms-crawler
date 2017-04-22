@@ -38,6 +38,7 @@ function fetchByUrlAndSave(url) {
             return
           }
           console.log('write into file: ', filename);
+          sleep.sleep(30)
           resolve()
         })
       }).catch((err) => {
@@ -50,7 +51,6 @@ function fetchByUrlAndSave(url) {
 function fetchByUrls(urls) {
   return urls.reduce((p, url) => {
     return p.then(() => {
-      sleep.sleep(2)
       return fetchByUrlAndSave(url)
     })
   }, Promise.resolve())
@@ -59,7 +59,6 @@ function fetchByUrls(urls) {
 function fetchByTimeRanges() {
   timeRanges.reduce((p, timeRange) => {
     return p.then(() => {
-      sleep.sleep(10)
       return fetchByTimeRange(timeRange)
     })
   }, Promise.resolve())
@@ -109,7 +108,6 @@ function fetchByTimeRange(timeRange) {
             return 'https://web.pcc.gov.tw' + result[1]
           })
 
-          sleep.sleep(5)
 
           fetchByUrls(matches)
             .then(() => {
@@ -138,7 +136,6 @@ function fetchByTimeRange(timeRange) {
 
       return pages.reduce((p, page, index) => {
         return p.then(() => {
-          sleep.sleep(5)
           return fetchByPage(page)
         }).catch((error) => {
           console.warn('error:', error)
